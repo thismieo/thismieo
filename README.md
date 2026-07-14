@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Mohammed Muayad
 
-🎓 AI Engineering Student from Iraq 🇮🇶
+AI Engineering Student from Iraq 🎓 🇮🇶
 
-💙 Dedicated to continuous learning and building with purpose.
+Dedicated to continuous learning and building with purpose.
 
 ---
 
