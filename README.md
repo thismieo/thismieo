@@ -1,10 +1,10 @@
 ## 👋 About Me
 
-I'm **Mohammed Muayad**, an **AI Engineering Student** from **Baghdad, Iraq 🇮🇶** with a passion for Artificial Intelligence and Software Development.
+I'm **Mohammed Muayad**, an **AI Engineering Student** from **Baghdad, Iraq 🇮🇶**, passionate about Artificial Intelligence and Software Development.
 
-I'm currently building a strong foundation in **Python**, improving my problem-solving skills, and documenting my learning journey through real projects and consistent practice.
+Currently building a strong foundation in **Python**, solving problems, and turning ideas into real-world projects.
 
-I believe that continuous learning, consistency, and hands-on experience are the keys to becoming a great AI Engineer.
+Driven by curiosity, consistency, and continuous learning.
 
 ---
 
