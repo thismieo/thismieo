@@ -64,7 +64,7 @@ The work should speak before I do.
 
 ## 📈 My Journey
 
-📅 Started in June 2026
+📅 Started on June 4, 2026
 
 > *"Every expert started somewhere."* 
 
