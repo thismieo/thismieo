@@ -20,7 +20,7 @@
 
 ## 🌍 Vision
 
-Your prime is earned, not given.
+The work should speak before I do.
 
 ---
 
