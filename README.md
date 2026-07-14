@@ -1,4 +1,45 @@
-## Hi there 👋
+# 👋 Hi, I'm Mohammed Muayad
+
+🎓 AI Engineering Student from Iraq 🇮🇶
+
+---
+
+## 📚 Currently Learning
+
+- 🐍 Python
+- 📊 Data Analysis
+- 🧹 Data Preprocessing
+- 🤖 Machine Learning
+- 🧠 Deep Learning
+- 💬 NLP
+- 🚀 LLMs
+
+---
+
+## 🎯 Current Goal
+
+Become an AI Engineer and build real-world AI projects.
+
+---
+
+## 🗺️ 2026 Learning Roadmap
+
+- ✅ Python
+- ⬜ Data Analysis
+- ⬜ Data Preprocessing
+- ⬜ Machine Learning
+- ⬜ Deep Learning
+- ⬜ NLP
+- ⬜ LLMs
+- ⬜ Generative AI
+
+---
+
+## 📈 My Journey
+
+📅 Started: July 2026
+
+> *"Learning one step at a time."* 🚀
 
 <!--
 **thismieo/thismieo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
