@@ -37,13 +37,14 @@ Become an AI Engineer and build real-world AI projects.
 
 ---
 
-## 💻 My Coding Desk
+## ❤️ What I'm Doing Now
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,vscode" height="55" />
+  <img src="https://skillicons.dev/icons?i=python,vscode" height="50" />
 </p>
 
-🐍 Python is where my AI journey begins.
+🐍 Learning Python  
+💙 Writing clean code in VS Code
 
 ---
 
