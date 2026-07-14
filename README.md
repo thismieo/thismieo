@@ -53,6 +53,14 @@ The work should speak before I do.
 
 ---
 
+## 📂 Projects
+
+> 🚧 Coming soon...
+
+*Building something worth sharing.*
+
+---
+
 ## 📈 My Journey
 
 📅 Started in June 2026
