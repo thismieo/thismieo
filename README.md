@@ -35,15 +35,19 @@ Become an AI Engineer and build real-world AI projects.
 
 ---
 
-## 🛠️ Technologies & Tools
+## 💻 My Coding Desk
 
-<img src="https://skillicons.dev/icons?i=python" height="45" />
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,vscode" height="55" />
+</p>
+
+🐍 Python is where my AI journey begins.
 
 ---
 
 ## 📈 My Journey
 
-📅 Started: July 2026
+📅 Started: Jun 2026
 
 > *"Learning one step at a time."* 🚀
 
