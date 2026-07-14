@@ -25,10 +25,10 @@ The work should speak before I do.
 
 ---
 
-## 🗺️ 2026 Roadmap
+## 🗺️ Roadmap
 
-- ✅ Python
-- ⬜ Data Analysis
+- ✅🔄 Python
+- ⬜ Data Analysis 
 - ⬜ Data Preprocessing
 - ⬜ Machine Learning
 - ⬜ Deep Learning
@@ -54,6 +54,17 @@ The work should speak before I do.
 
 ---
 
+## 🎯 Goals
+
+- Complete Python Fundamentals
+- Build 10+ AI Projects
+- Master Machine Learning Fundamentals
+- Learn Deep Learning
+- Explore LLMs & Generative AI
+- Contribute to Open Source
+
+---
+
 ## 📂 Projects
 
 > 🚧 Coming soon...
@@ -66,8 +77,15 @@ The work should speak before I do.
 
 📅 Started on June 4, 2026
 
-> *"Every expert started somewhere."* 
+> *"Every expert started somewhere."*
 
+---
+
+## 📫 Connect with Me
+
+📧 **Email:** [thismieo@gmail.com](mailto:thismieo@gmail.com)
+
+Thanks for visiting my profile! 🚀
 <!--
 **thismieo/thismieo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
