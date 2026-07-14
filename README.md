@@ -2,11 +2,11 @@
 
 🎓 AI Engineering Student from Iraq 🇮🇶
 
-💙 The journey has just begun.
+💙 Dedicated to continuous learning and building with purpose.
 
 ---
 
-## 📚 Currently Learning
+## 📖 Learning
 
 - 🐍 Python
 - 📊 Data Analysis
@@ -18,13 +18,13 @@
 
 ---
 
-## 🎯 Current Goal
+## 🌍 Vision
 
-Become an AI Engineer and build real-world AI projects.
+Your prime is earned, not given.
 
 ---
 
-## 🗺️ 2026 Learning Roadmap
+## 🗺️ 2026 Roadmap
 
 - ✅ Python
 - ⬜ Data Analysis
@@ -47,17 +47,17 @@ Become an AI Engineer and build real-world AI projects.
 
 💻 Writing clean code in VS Code
 
-☕ Every line of code makes me better.
+☕ Every line of code is a step forward.
 
-❤️ Enjoying the journey.
+🚀 Enjoying the journey.
 
 ---
 
 ## 📈 My Journey
 
-📅 Started: Jun 2026
+📅 Started in June 2026
 
-> *"Learning one step at a time."* 🚀
+> *"Every expert started somewhere."* 
 
 <!--
 **thismieo/thismieo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
