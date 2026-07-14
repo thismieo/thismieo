@@ -37,14 +37,19 @@ Become an AI Engineer and build real-world AI projects.
 
 ---
 
-## ❤️ What I'm Doing Now
+## 💻 My Coding Desk
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,vscode" height="50" />
 </p>
 
-🐍 Learning Python  
-💙 Writing clean code in VS Code
+🐍 Learning Python
+
+💻 Writing clean code in VS Code
+
+☕ Every line of code makes me better.
+
+❤️ Enjoying the journey.
 
 ---
 
