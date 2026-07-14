@@ -35,6 +35,12 @@ Become an AI Engineer and build real-world AI projects.
 
 ---
 
+## 🛠️ Technologies & Tools
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
 ## 📈 My Journey
 
 📅 Started: July 2026
