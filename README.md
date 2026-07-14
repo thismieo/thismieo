@@ -2,7 +2,7 @@
 
 🎓 AI Engineering Student from Iraq 🇮🇶
 
-💙 Passionate about Python, AI and building real-world projects.
+💙 Passionate about Python, AI and continuous learning.
 
 ---
 
