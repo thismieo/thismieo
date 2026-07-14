@@ -37,7 +37,9 @@ Become an AI Engineer and build real-world AI projects.
 
 ## 🛠️ Technologies & Tools
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python" height="45" />
+</p>
 
 ---
 
