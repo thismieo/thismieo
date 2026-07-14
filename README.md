@@ -14,8 +14,6 @@ I believe that continuous learning, consistency, and hands-on experience are the
 
 <br>
 
-<h3>AI Engineering Student · Baghdad · IQ </h3>
-
 <p>
 <i>Documenting my journey to becoming an AI Engineer.</i>
 </p>
