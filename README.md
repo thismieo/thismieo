@@ -37,9 +37,7 @@ Become an AI Engineer and build real-world AI projects.
 
 ## 🛠️ Technologies & Tools
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python" height="45" />
-</p>
+<img src="https://skillicons.dev/icons?i=python" height="45" />
 
 ---
 
