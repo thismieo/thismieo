@@ -15,7 +15,8 @@
 - 🧠 Deep Learning
 - 💬 NLP
 - 🚀 LLMs
-
+- ✨ Generative AI
+  
 ---
 
 ## 🌍 Vision
