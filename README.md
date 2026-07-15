@@ -2,16 +2,23 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=12,20,24,27&text=Mohammed%20Muayad&fontSize=60&fontColor=ffffff&animation=fadeIn"/>
 
-<br>
+</div>
 
 ---
 
-## 👋 About Me
+## *Hello* *there!* 👋 
 
-I'm **Mohammed Muayad**, an **AI Engineering Student** from **Baghdad** passionate about Artificial Intelligence and Software Development.
+- 🧭 **About** **Me**
+> **I'm** **Mohammed** **Muayad** **an** **from** **Iraq** **building** **my** **skills** **from** **the** **ground** **up** **—** **one** **concept,** **one** **project,** **one** **commit** **at** **a** **time.** **This** **profile** **documents** **that** **journey** **publicly.**
+> 
+- **Location:** **Baghdad,** **IQ**
+> 
+> **Date of Birth:** **11** **December** **1997**
 
-Currently building a strong foundation in **Python**, creating practical projects, and documenting my journey to becoming an AI Engineer.
-
+>
+- 🎓 **AI** **Engineering** **Student**
+> **Dedicated** **to** **continuous** **learning** **and** **building** **with** **purpose.**
+ 
 <div align="center">
 
 <img src="https://img.shields.io/badge/Python-6366F1?style=flat-square&logo=python&logoColor=white"/>
@@ -25,12 +32,118 @@ Currently building a strong foundation in **Python**, creating practical project
 
 ---
 
-<p>
-<i>Documenting my journey to becoming an AI Engineer.</i>
+## 📖 Learning
+
+- 🐍 Python
+- 📊 Data Analysis
+- 🧹 Data Preprocessing
+- 🤖 Machine Learning
+- 🧠 Deep Learning
+- 💬 NLP
+- 🚀 LLMs
+- ✨ Generative AI
+  
+---
+
+## 🌍 Vision
+
+> **The** **work** **should** **speak** **before** **I** **do.**
+
+---
+
+### 🗺️ Learning Roadmap
+
+| Stage | Topic | Status |
+|:---:|---|:---:|
+| 1 | 🐍 Python Fundamentals | ✅ In Progress |
+| 2 | 📊 Data Analysis | 🔄 Upcoming |
+| 3 | 🧹 Data Preprocessing | ⬜ Upcoming |
+| 4 | 🤖 Machine Learning | ⬜ Upcoming |
+| 5 | 🧠 Deep Learning | ⬜ Upcoming |
+| 6 | 💬 NLP | ⬜ Upcoming |
+| 7 | 🚀 LLMs | ⬜ Upcoming |
+| 8 | ✨ Generative AI | ⬜ Upcoming |
+
+<br/>
+
+---
+
+### 🛠️ Tech Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,vscode,git,github,pandas,numpy" height="55"/>
 </p>
 
-<br>
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=5200&pause=2600&color=6366F1&center=true&vCenter=true&width=760&height=55&lines=Building+Strong+Foundations;Writing+Python+with+Purpose;Turning+Knowledge+into+Projects;Growing+into+an+AI+Engineer;One+Commit+at+a+Time+%F0%9F%9A%80"/>
+🐍 Learning Python
+
+💻 Writing clean code in VS Code
+
+☕ Every line of code is a step forward.
+
+🚀 Enjoying the journey.
+
+---
+
+### 🎯 Goals
+
+- [ ] Complete Python Fundamentals
+- [ ] Master Machine Learning Fundamentals
+- [ ] Learn Deep Learning
+- [ ] Explore NLP, LLMs & Generative AI
+- [ ] Build 10+ AI Projects
+- [ ] Contribute to Open Source
+
+<br/>
+
+---
+
+## 📂 Projects
+
+> 🚧 **Coming** **soon...**
+
+*Building something worth sharing.*
+
+---
+
+## 📈 My Journey
+
+📅 Started on June 4, 2026
+
+> *"Every expert started somewhere."*
+
+---
+
+## 📬 Connect with Me
+
+📧 **Email:** **thismieo@gmail.com**
+
+Let's connect and build something meaningful together.
+
+---
+<br/>
+
+<div align="center">
+
+### Thanks for visiting my profile! 💜
+
+*Always learning. Always building. 🚀*
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient&customColorList=12,20,24,27"/>
 
 </div>
+<!--
+**thismieo/thismieo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
