@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1600 500"
+     width="1600"
+     height="500">
+
+<defs>
+
+<!-- ================= Background ================= -->
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+
+<stop offset="0%">
+<animate attributeName="stop-color"
+values="#030712;#071A33;#0B1020;#030712"
+dur="2.5s"
+repeatCount="indefinite"/>
+</stop>
+
+<stop offset="50%">
+<animate attributeName="stop-color"
+values="#0F3D91;#06B6D4;#2563EB;#0F3D91"
+dur="2.5s"
+repeatCount="indefinite"/>
+</stop>
+
+<stop offset="100%">
+<animate attributeName="stop-color"
+values="#111827;#312E81;#0EA5E9;#111827"
+dur="2.5s"
+repeatCount="indefinite"/>
+</stop>
+
+</linearGradient>
+
+<!-- ================= Glow ================= -->
+
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+
+<feGaussianBlur stdDeviation="12" result="blur"/>
+
+<feMerge>
+
+<feMergeNode in="blur"/>
+
+<feMergeNode in="SourceGraphic"/>
+
+</feMerge>
+
+</filter>
+
+<!-- ================= Glass ================= -->
+
+<filter id="glass">
+
+<feGaussianBlur stdDeviation="20"/>
+
+</filter>
+
+<!-- ================= Grid Pattern ================= -->
+
+<pattern id="grid"
+width="40"
+height="40"
+patternUnits="userSpaceOnUse">
+
+<path
+d="M40 0H0V40"
+fill="none"
+stroke="#38BDF8"
+stroke-opacity=".05"
+stroke-width="1"/>
+
+</pattern>
+
+</defs>
+
+<!-- ================================================= -->
+
+<rect width="1600"
+height="500"
+fill="url(#bg)"/>
+
+<rect width="1600"
+height="500"
+fill="url(#grid)"/>
+
+<!-- ================================================= -->
+<!-- Aurora -->
+
+<ellipse
+cx="350"
+cy="80"
+rx="250"
+ry="120"
+fill="#06B6D4"
+opacity=".08"
+filter="url(#glow)">
+
+<animateTransform
+attributeName="transform"
+type="translate"
+values="-50 0;50 0;-50 0"
+dur="8s"
+repeatCount="indefinite"/>
+
+</ellipse>
+
+<ellipse
+cx="1250"
+cy="140"
+rx="300"
+ry="150"
+fill="#7C3AED"
+opacity=".08"
+filter="url(#glow)">
+
+<animateTransform
+attributeName="transform"
+type="translate"
+values="60 0;-60 0;60 0"
+dur="9s"
+repeatCount="indefinite"/>
+
+</ellipse>
+
+<!-- ================================================= -->
+<!-- Glass Panel -->
+
+<rect
+x="370"
+y="90"
+rx="24"
+ry="24"
+width="860"
+height="170"
+fill="white"
+fill-opacity=".05"
+stroke="#38BDF8"
+stroke-opacity=".25"/>
+
+<!-- ================================================= -->
+<!-- Glow Behind Name -->
+
+<circle
+cx="800"
+cy="175"
+r="140"
+fill="#38BDF8"
+opacity=".12"
+filter="url(#glow)">
+
+<animate
+attributeName="r"
+values="140;165;140"
+dur="3s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- ================================================= -->
+<!-- Title -->
+
+<text
+
+x="800"
+
+y="170"
+
+text-anchor="middle"
+
+font-family="Segoe UI,Arial"
+
+font-size="58"
+
+font-weight="700"
+
+fill="white">
+
+MOHAMMED MUAYAD
+
+</text>
+
+<text
+
+x="800"
+
+y="215"
+
+text-anchor="middle"
+
+font-family="Segoe UI,Arial"
+
+font-size="22"
+
+fill="#D9F5FF">
+
+AI Engineering Student • Python • Machine Learning • Deep Learning • LLMs
+
+</text>
+
+<!-- ================================================= -->
+<!-- Wave Layer 1 -->
+
+<path
+
+d="M0 390
+
+C120 350 240 430 360 390
+
+S600 350 720 390
+
+S960 430 1080 390
+
+S1320 350 1600 390"
+
+fill="none"
+
+stroke="#38BDF8"
+
+stroke-width="4"
+
+opacity=".35">
+
+<animateTransform
+
+attributeName="transform"
+
+type="translate"
+
+values="-120 0;120 0;-120 0"
+
+dur="5s"
+
+repeatCount="indefinite"/>
+
+</path>
+
+<!-- Wave Layer 2 -->
+
+<path
+
+d="M0 420
+
+C140 370 280 460 420 420
+
+S700 370 840 420
+
+S1120 460 1260 420
+
+S1460 390 1600 420"
+
+fill="none"
+
+stroke="#7DD3FC"
+
+stroke-width="5"
+
+opacity=".30">
+
+<animateTransform
+
+attributeName="transform"
+
+type="translate"
+
+values="120 0;-120 0;120 0"
+
+dur="3.8s"
+
+repeatCount="indefinite"/>
+
+</path>
+
+<!-- Wave Layer 3 -->
+
+<path
+
+d="M0 450
+
+C180 420 360 470 540 450
+
+S900 420 1080 450
+
+S1440 470 1600 450"
+
+fill="none"
+
+stroke="#BAE6FD"
+
+stroke-width="6"
+
+opacity=".25">
+
+<animateTransform
+
+attributeName="transform"
+
+type="translate"
+
+values="-80 0;80 0;-80 0"
+
+dur="2.8s"
+
+repeatCount="indefinite"/>
+
+</path>
+
+</svg>
