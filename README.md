@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&duration=3200&700=2900&color=6366F1&center=true&vCenter=true&width=900&height=55&lines=%3E%3E%3E+from+future+import+AIEngineer;%3E%3E%3E+learning+%3D+True;%3E%3E%3E+building_projects+%3D+True;%3E%3E%3E+consistency+%2B%3D+1;%3E%3E%3E+status+%3D+%22One+Commit+at+a+Time+%F0%9F%9A%80%22"/>
+
+<br>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=12,20,24,27&text=Mohammed%20Muayad&fontSize=60&fontColor=ffffff&animation=fadeIn"/>
 
 </div>
