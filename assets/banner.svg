@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Mohammed Muayad — AI Engineering Student</title>
+  <desc id="desc">Dark luxury AI banner with animated neural network lines, purple and blue glows, and maroon accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08050f"/>
+      <stop offset="42%" stop-color="#21113b"/>
+      <stop offset="72%" stop-color="#0b3159"/>
+      <stop offset="100%" stop-color="#341224"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#9f3f66"/>
+    </linearGradient>
+    <radialGradient id="purpleGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M 52 0 L 0 0 0 52" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="520" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="520" rx="28" fill="url(#grid)"/>
+
+  <ellipse cx="640" cy="195" rx="410" ry="160" fill="url(#purpleGlow)" filter="url(#blur)">
+    <animate attributeName="rx" values="380;430;380" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1030" cy="330" rx="360" ry="140" fill="url(#blueGlow)" filter="url(#blur)">
+    <animate attributeName="cy" values="315;345;315" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g opacity="0.62" fill="none" stroke="url(#beam)" filter="url(#glow)">
+    <path d="M110 140 C260 40 360 80 500 170 S760 280 900 150 S1180 40 1490 180" stroke-width="2.2"/>
+    <path d="M70 330 C250 220 410 245 560 340 S830 455 1010 300 S1280 180 1540 340" stroke-width="1.8"/>
+    <path d="M260 455 C430 345 580 370 735 450 S1030 505 1200 400 S1420 335 1560 410" stroke-width="1.4" opacity="0.75"/>
+  </g>
+
+  <g fill="#e8ddff" filter="url(#glow)">
+    <circle cx="110" cy="140" r="6"/><circle cx="500" cy="170" r="6"/><circle cx="900" cy="150" r="6"/><circle cx="1490" cy="180" r="6"/>
+    <circle cx="70" cy="330" r="6"/><circle cx="560" cy="340" r="6"/><circle cx="1010" cy="300" r="6"/><circle cx="1540" cy="340" r="6"/>
+    <circle cx="260" cy="455" r="6"/><circle cx="735" cy="450" r="6"/><circle cx="1200" cy="400" r="6"/><circle cx="1560" cy="410" r="6"/>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="800" y="185" font-size="64" font-weight="750" fill="#ffffff">Mohammed Muayad</text>
+    <text x="800" y="238" font-size="28" font-weight="600" fill="#d9d9ff">AI Engineering Student</text>
+    <text x="800" y="302" font-size="29" font-weight="500" fill="#ffffff">Building Intelligent Systems, One Commit at a Time.</text>
+  </g>
+
+  <g font-family="Consolas, JetBrains Mono, monospace" font-size="19" fill="#8ed8ff" text-anchor="middle">
+    <text x="800" y="370">&gt;&gt;&gt; learning = True</text>
+    <text x="800" y="402">&gt;&gt;&gt; building_projects = True</text>
+    <text x="800" y="434">&gt;&gt;&gt; future = &quot;AI Engineer&quot;</text>
+  </g>
+
+  <rect x="270" y="474" width="1060" height="2" fill="url(#beam)" opacity="0.75">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
