@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
   <title id="title">Mohammed Muayad — AI Engineering Student</title>
-  <desc id="desc">Animated luxury AI banner with maroon, violet, and cyan glows, a professional neural network mesh, and flowing waves.</desc>
+  <desc id="desc">Animated luxury AI banner with maroon, violet, and cyan glows, tall professional neural networks on both sides, and flowing waves.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -17,14 +17,16 @@
       <stop offset="100%" stop-color="#d14f7b"/>
     </linearGradient>
 
-    <linearGradient id="neuralLeft" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
+    <linearGradient id="leftNet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="55%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
     </linearGradient>
 
-    <linearGradient id="neuralRight" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#e05a87"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
+    <linearGradient id="rightNet" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f08aaf"/>
+      <stop offset="48%" stop-color="#d14f7b"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
     </linearGradient>
 
     <linearGradient id="waveA" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -72,7 +74,7 @@
     </filter>
 
     <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feGaussianBlur stdDeviation="2.1" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -96,63 +98,105 @@
     <animate attributeName="cy" values="235;285;235" dur="12.5s" repeatCount="indefinite"/>
   </ellipse>
 
-  <g opacity="0.78" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
-    <g stroke="url(#neuralLeft)" stroke-width="1.7">
-      <path d="M85 115 L205 68 L330 125 L445 78 L560 145"/>
-      <path d="M85 115 L150 225 L330 125 L365 255 L560 145"/>
-      <path d="M150 225 L275 335 L365 255 L500 345"/>
-      <path d="M205 68 L275 170 L445 78 L500 210"/>
-      <path d="M275 170 L330 125 L365 255 L500 210"/>
-      <path d="M275 335 L365 255 L500 345 L615 300"/>
-    </g>
+  <!-- Tall left neural network -->
+  <g fill="none" stroke="url(#leftNet)" stroke-linecap="round" filter="url(#softGlow)" opacity="0.72">
+    <path d="M28 38 C145 78 188 42 278 94 S414 188 540 152" stroke-width="1.6"/>
+    <path d="M22 126 C136 93 203 142 278 194 S405 250 548 222" stroke-width="1.45"/>
+    <path d="M18 232 C132 188 197 246 286 294 S420 348 548 318" stroke-width="1.55"/>
+    <path d="M30 386 C158 338 215 378 310 408 S440 430 560 390" stroke-width="1.35"/>
 
-    <g stroke="url(#neuralRight)" stroke-width="1.8">
-      <path d="M1045 145 L1170 72 L1288 132 L1410 82 L1520 145"/>
-      <path d="M1045 145 L1105 255 L1288 132 L1328 270 L1520 145"/>
-      <path d="M1105 255 L1218 348 L1328 270 L1465 350"/>
-      <path d="M1170 72 L1238 176 L1410 82 L1460 215"/>
-      <path d="M1238 176 L1288 132 L1328 270 L1460 215"/>
-      <path d="M1218 348 L1328 270 L1465 350 L1540 300"/>
-    </g>
+    <path d="M88 58 C114 136 116 215 96 332" stroke-width="1.15" opacity="0.75"/>
+    <path d="M188 78 C204 154 198 248 212 372" stroke-width="1.2" opacity="0.78"/>
+    <path d="M278 94 C255 168 255 250 286 294" stroke-width="1.25" opacity="0.82"/>
+    <path d="M390 126 C350 202 356 294 414 350" stroke-width="1.2" opacity="0.76"/>
+    <path d="M540 152 C500 222 504 314 548 390" stroke-width="1.15" opacity="0.7"/>
+
+    <path d="M28 38 C122 132 210 218 310 408" stroke-width="1" stroke-dasharray="8 12" opacity="0.48">
+      <animate attributeName="stroke-dashoffset" values="0;-160" dur="13s" repeatCount="indefinite"/>
+    </path>
+    <path d="M22 126 C168 204 352 262 548 390" stroke-width="1.05" stroke-dasharray="7 12" opacity="0.5">
+      <animate attributeName="stroke-dashoffset" values="0;170" dur="15s" repeatCount="indefinite"/>
+    </path>
   </g>
 
+  <!-- Tall right neural network -->
+  <g fill="none" stroke="url(#rightNet)" stroke-linecap="round" filter="url(#softGlow)" opacity="0.78">
+    <path d="M1572 38 C1455 78 1412 42 1322 94 S1186 188 1060 152" stroke-width="1.65"/>
+    <path d="M1578 126 C1464 93 1397 142 1322 194 S1195 250 1052 222" stroke-width="1.5"/>
+    <path d="M1582 232 C1468 188 1403 246 1314 294 S1180 348 1052 318" stroke-width="1.6"/>
+    <path d="M1570 386 C1442 338 1385 378 1290 408 S1160 430 1040 390" stroke-width="1.4"/>
+
+    <path d="M1512 58 C1486 136 1484 215 1504 332" stroke-width="1.15" opacity="0.78"/>
+    <path d="M1412 78 C1396 154 1402 248 1388 372" stroke-width="1.2" opacity="0.82"/>
+    <path d="M1322 94 C1345 168 1345 250 1314 294" stroke-width="1.25" opacity="0.86"/>
+    <path d="M1210 126 C1250 202 1244 294 1186 350" stroke-width="1.2" opacity="0.8"/>
+    <path d="M1060 152 C1100 222 1096 314 1052 390" stroke-width="1.15" opacity="0.74"/>
+
+    <path d="M1572 38 C1478 132 1390 218 1290 408" stroke-width="1" stroke-dasharray="8 12" opacity="0.52">
+      <animate attributeName="stroke-dashoffset" values="0;160" dur="13s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1578 126 C1432 204 1248 262 1052 390" stroke-width="1.05" stroke-dasharray="7 12" opacity="0.54">
+      <animate attributeName="stroke-dashoffset" values="0;-170" dur="15s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Neural nodes -->
   <g filter="url(#glow)">
     <g fill="#c4b5fd">
-      <circle cx="85" cy="115" r="5"/>
-      <circle cx="205" cy="68" r="5"/>
-      <circle cx="330" cy="125" r="6"/>
-      <circle cx="445" cy="78" r="5"/>
-      <circle cx="560" cy="145" r="5"/>
-      <circle cx="150" cy="225" r="5"/>
-      <circle cx="275" cy="170" r="5"/>
-      <circle cx="365" cy="255" r="6"/>
-      <circle cx="500" cy="210" r="5"/>
-      <circle cx="275" cy="335" r="5"/>
-      <circle cx="500" cy="345" r="5"/>
-      <circle cx="615" cy="300" r="5"/>
+      <circle cx="28" cy="38" r="4.5"/>
+      <circle cx="88" cy="58" r="4"/>
+      <circle cx="188" cy="78" r="4.5"/>
+      <circle cx="278" cy="94" r="5.5"/>
+      <circle cx="390" cy="126" r="4"/>
+      <circle cx="540" cy="152" r="4.5"/>
+      <circle cx="22" cy="126" r="4"/>
+      <circle cx="278" cy="194" r="4.5"/>
+      <circle cx="548" cy="222" r="4"/>
+      <circle cx="18" cy="232" r="4.5"/>
+      <circle cx="286" cy="294" r="5"/>
+      <circle cx="414" cy="350" r="4"/>
+      <circle cx="30" cy="386" r="4"/>
+      <circle cx="212" cy="372" r="4.5"/>
+      <circle cx="310" cy="408" r="5"/>
+      <circle cx="548" cy="390" r="4.5"/>
     </g>
 
     <g fill="#f29ab9">
-      <circle cx="1045" cy="145" r="5"/>
-      <circle cx="1170" cy="72" r="5"/>
-      <circle cx="1288" cy="132" r="6"/>
-      <circle cx="1410" cy="82" r="5"/>
-      <circle cx="1520" cy="145" r="5"/>
-      <circle cx="1105" cy="255" r="5"/>
-      <circle cx="1238" cy="176" r="5"/>
-      <circle cx="1328" cy="270" r="6"/>
-      <circle cx="1460" cy="215" r="5"/>
-      <circle cx="1218" cy="348" r="5"/>
-      <circle cx="1465" cy="350" r="5"/>
-      <circle cx="1540" cy="300" r="5"/>
+      <circle cx="1572" cy="38" r="4.5"/>
+      <circle cx="1512" cy="58" r="4"/>
+      <circle cx="1412" cy="78" r="4.5"/>
+      <circle cx="1322" cy="94" r="5.5"/>
+      <circle cx="1210" cy="126" r="4"/>
+      <circle cx="1060" cy="152" r="4.5"/>
+      <circle cx="1578" cy="126" r="4"/>
+      <circle cx="1322" cy="194" r="4.5"/>
+      <circle cx="1052" cy="222" r="4"/>
+      <circle cx="1582" cy="232" r="4.5"/>
+      <circle cx="1314" cy="294" r="5"/>
+      <circle cx="1186" cy="350" r="4"/>
+      <circle cx="1570" cy="386" r="4"/>
+      <circle cx="1388" cy="372" r="4.5"/>
+      <circle cx="1290" cy="408" r="5"/>
+      <circle cx="1052" cy="390" r="4.5"/>
     </g>
   </g>
 
+  <!-- Animated signal pulses -->
   <g filter="url(#glow)">
-    <circle cx="85" cy="115" r="5" fill="#c4b5fd"><animate attributeName="r" values="4;8;4" dur="3.4s" repeatCount="indefinite"/></circle>
-    <circle cx="365" cy="255" r="6" fill="#67e8f9"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.7s" repeatCount="indefinite"/></circle>
-    <circle cx="1288" cy="132" r="6" fill="#f29ab9"><animate attributeName="r" values="5;9;5" dur="3.9s" repeatCount="indefinite"/></circle>
-    <circle cx="1465" cy="350" r="5" fill="#f29ab9"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="278" cy="94" r="5.5" fill="#67e8f9">
+      <animate attributeName="r" values="4.5;9;4.5" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="310" cy="408" r="5" fill="#a78bfa">
+      <animate attributeName="r" values="4;8;4" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1322" cy="94" r="5.5" fill="#f29ab9">
+      <animate attributeName="r" values="4.5;9;4.5" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1290" cy="408" r="5" fill="#d14f7b">
+      <animate attributeName="r" values="4;8;4" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
   <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
