@@ -59,11 +59,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Python-8B5CF6?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Artificial%20Intelligence-0EA5E9?style=flat-square" alt="Artificial Intelligence" />
-<img src="https://img.shields.io/badge/Problem%20Solving-8B1E3F?style=flat-square" alt="Problem Solving" />
-<img src="https://img.shields.io/badge/Git%20%26%20GitHub-8B5CF6?style=flat-square&logo=github&logoColor=white" alt="Git and GitHub" />
-<img src="https://img.shields.io/badge/Learning%20in%20Public-0EA5E9?style=flat-square" alt="Learning in Public" />
+<img src="./assets/identity-icons.svg" width="62%" alt="Python, artificial intelligence, problem solving, Git and GitHub, and learning in public" />
 
 </div>
 
