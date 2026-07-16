@@ -1,84 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 440" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 430" role="img" aria-labelledby="title desc">
   <title id="title">Progress Status Dashboard</title>
-  <desc id="desc">Animated dashboard showing current learning, completed foundation, and next targets.</desc>
+  <desc id="desc">Calm animated dashboard showing current learning, completed foundations, and next targets.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b0713"/>
-      <stop offset="58%" stop-color="#111a2d"/>
-      <stop offset="100%" stop-color="#30101f"/>
+      <stop offset="0%" stop-color="#08060f"/>
+      <stop offset="55%" stop-color="#0b1425"/>
+      <stop offset="100%" stop-color="#170a17"/>
     </linearGradient>
-    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fb4d83" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.28"/>
     </linearGradient>
-    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0284c7"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
-    </linearGradient>
-    <linearGradient id="maroon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7f1d3f"/>
-      <stop offset="100%" stop-color="#c2416c"/>
-    </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7c3aed"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+    <linearGradient id="maroon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9f1747"/><stop offset="1" stop-color="#fb7185"/></linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
 
-  <rect width="1400" height="440" rx="26" fill="url(#bg)"/>
-  <rect x="1.5" y="1.5" width="1397" height="437" rx="25" fill="none" stroke="#8b5cf6" stroke-opacity="0.34" stroke-width="3"/>
+  <rect width="1400" height="430" rx="24" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1397" height="427" rx="23" fill="none" stroke="url(#border)" stroke-width="3"/>
 
   <g font-family="Segoe UI, Inter, Arial, sans-serif">
-    <text x="700" y="60" text-anchor="middle" font-size="34" font-weight="700" fill="#ffffff">Progress Status</text>
-    <text x="700" y="91" text-anchor="middle" font-size="16" fill="#a5b4fc" letter-spacing="2">LEARN • BUILD • DOCUMENT • IMPROVE</text>
+    <text x="700" y="58" text-anchor="middle" font-size="33" font-weight="700" fill="#ffffff">Progress Status</text>
+    <text x="700" y="88" text-anchor="middle" font-size="14" fill="#aeb8d8" letter-spacing="2.4">LEARN • BUILD • DOCUMENT • IMPROVE</text>
 
-    <g transform="translate(55 125)">
-      <rect width="410" height="250" rx="22" fill="#12101f" stroke="#8b5cf6" stroke-opacity="0.55"/>
-      <circle cx="48" cy="48" r="25" fill="#21143c" stroke="#a78bfa" stroke-width="2" filter="url(#glow)"/>
-      <text x="48" y="57" text-anchor="middle" font-size="25" font-family="Segoe UI Emoji">🔄</text>
-      <text x="88" y="44" font-size="24" font-weight="700" fill="#ffffff">Currently Learning</text>
-      <text x="88" y="70" font-size="15" fill="#c4b5fd">Active focus</text>
-      <text x="28" y="120" font-size="18" fill="#f8fafc">Python Fundamentals</text>
-      <text x="28" y="151" font-size="18" fill="#f8fafc">Algorithms &amp; Problem Solving</text>
-      <text x="28" y="182" font-size="18" fill="#f8fafc">Git &amp; GitHub Workflow</text>
-      <rect x="28" y="210" width="354" height="12" rx="6" fill="#252033"/>
-      <rect x="28" y="210" width="0" height="12" rx="6" fill="url(#purple)">
-        <animate attributeName="width" from="0" to="255" dur="1.8s" fill="freeze"/>
+    <g transform="translate(45 118)">
+      <rect width="420" height="255" rx="20" fill="#0e0d19" stroke="#8b5cf6" stroke-opacity="0.42"/>
+      <circle cx="42" cy="42" r="7" fill="#c084fc" filter="url(#glow)"><animate attributeName="r" values="5;9;5" dur="3.4s" repeatCount="indefinite"/></circle>
+      <text x="66" y="39" font-size="13" fill="#d8b4fe" letter-spacing="1.8">CURRENTLY LEARNING</text>
+      <text x="28" y="84" font-size="25" font-weight="700" fill="#ffffff">Foundation Phase</text>
+      <text x="28" y="124" font-size="17" fill="#e2e8f0">Python Fundamentals</text>
+      <text x="28" y="154" font-size="17" fill="#e2e8f0">Algorithms &amp; Problem Solving</text>
+      <text x="28" y="184" font-size="17" fill="#e2e8f0">Git &amp; GitHub Workflow</text>
+      <rect x="28" y="214" width="364" height="9" rx="4.5" fill="#211d2d"/>
+      <rect x="28" y="214" width="262" height="9" rx="4.5" fill="url(#purple)">
+        <animate attributeName="opacity" values="0.62;1;0.62" dur="3.5s" repeatCount="indefinite"/>
       </rect>
-      <text x="382" y="205" text-anchor="end" font-size="14" fill="#c4b5fd">Foundation phase</text>
+      <circle cx="290" cy="218.5" r="4.5" fill="#e9d5ff" filter="url(#glow)"><animate attributeName="r" values="3.5;6;3.5" dur="3.5s" repeatCount="indefinite"/></circle>
+      <text x="392" y="244" text-anchor="end" font-size="13" fill="#c4b5fd">ACTIVE</text>
     </g>
 
-    <g transform="translate(495 125)">
-      <rect width="410" height="250" rx="22" fill="#0f1722" stroke="#22d3ee" stroke-opacity="0.55"/>
-      <circle cx="48" cy="48" r="25" fill="#102833" stroke="#22d3ee" stroke-width="2" filter="url(#glow)"/>
-      <text x="48" y="57" text-anchor="middle" font-size="25" font-family="Segoe UI Emoji">✅</text>
-      <text x="88" y="44" font-size="24" font-weight="700" fill="#ffffff">Foundation Built</text>
-      <text x="88" y="70" font-size="15" fill="#67e8f9">Completed setup</text>
-      <text x="28" y="120" font-size="18" fill="#f8fafc">Development Environment</text>
-      <text x="28" y="151" font-size="18" fill="#f8fafc">Professional GitHub Profile</text>
-      <text x="28" y="182" font-size="18" fill="#f8fafc">Version Control Basics</text>
-      <rect x="28" y="210" width="354" height="12" rx="6" fill="#20303a"/>
-      <rect x="28" y="210" width="0" height="12" rx="6" fill="url(#cyan)">
-        <animate attributeName="width" from="0" to="354" dur="1.8s" fill="freeze"/>
+    <g transform="translate(490 118)">
+      <rect width="420" height="255" rx="20" fill="#0b121c" stroke="#38bdf8" stroke-opacity="0.42"/>
+      <circle cx="42" cy="42" r="7" fill="#60a5fa" filter="url(#glow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.8s" repeatCount="indefinite"/></circle>
+      <text x="66" y="39" font-size="13" fill="#93c5fd" letter-spacing="1.8">FOUNDATION BUILT</text>
+      <text x="28" y="84" font-size="25" font-weight="700" fill="#ffffff">Environment Ready</text>
+      <text x="28" y="124" font-size="17" fill="#e2e8f0">Development Environment</text>
+      <text x="28" y="154" font-size="17" fill="#e2e8f0">Professional GitHub Profile</text>
+      <text x="28" y="184" font-size="17" fill="#e2e8f0">Version Control Basics</text>
+      <rect x="28" y="214" width="364" height="9" rx="4.5" fill="#172534"/>
+      <rect x="28" y="214" width="364" height="9" rx="4.5" fill="url(#cyan)">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/>
       </rect>
-      <text x="382" y="205" text-anchor="end" font-size="14" fill="#67e8f9">Ready</text>
+      <circle cx="392" cy="218.5" r="4.5" fill="#dbeafe" filter="url(#glow)"><animate attributeName="opacity" values="0.45;1;0.45" dur="4s" repeatCount="indefinite"/></circle>
+      <text x="392" y="244" text-anchor="end" font-size="13" fill="#7dd3fc">READY</text>
     </g>
 
-    <g transform="translate(935 125)">
-      <rect width="410" height="250" rx="22" fill="#1c1018" stroke="#c2416c" stroke-opacity="0.55"/>
-      <circle cx="48" cy="48" r="25" fill="#351421" stroke="#c2416c" stroke-width="2" filter="url(#glow)"/>
-      <text x="48" y="57" text-anchor="middle" font-size="25" font-family="Segoe UI Emoji">⏳</text>
-      <text x="88" y="44" font-size="24" font-weight="700" fill="#ffffff">Next Target</text>
-      <text x="88" y="70" font-size="15" fill="#f9a8d4">Upcoming stage</text>
-      <text x="28" y="120" font-size="18" fill="#f8fafc">NumPy</text>
-      <text x="28" y="151" font-size="18" fill="#f8fafc">Pandas</text>
-      <text x="28" y="182" font-size="18" fill="#f8fafc">Data Analysis</text>
-      <rect x="28" y="210" width="354" height="12" rx="6" fill="#35232b"/>
-      <rect x="28" y="210" width="0" height="12" rx="6" fill="url(#maroon)">
-        <animate attributeName="width" from="0" to="112" dur="1.8s" fill="freeze"/>
+    <g transform="translate(935 118)">
+      <rect width="420" height="255" rx="20" fill="#160c14" stroke="#fb7185" stroke-opacity="0.42"/>
+      <circle cx="42" cy="42" r="7" fill="#fb7185" filter="url(#glow)"><animate attributeName="r" values="5;9;5" dur="3.6s" begin="-1.4s" repeatCount="indefinite"/></circle>
+      <text x="66" y="39" font-size="13" fill="#fda4af" letter-spacing="1.8">NEXT TARGET</text>
+      <text x="28" y="84" font-size="25" font-weight="700" fill="#ffffff">Data Foundations</text>
+      <text x="28" y="124" font-size="17" fill="#e2e8f0">NumPy</text>
+      <text x="28" y="154" font-size="17" fill="#e2e8f0">Pandas</text>
+      <text x="28" y="184" font-size="17" fill="#e2e8f0">Data Analysis</text>
+      <rect x="28" y="214" width="364" height="9" rx="4.5" fill="#2a1720"/>
+      <rect x="28" y="214" width="118" height="9" rx="4.5" fill="url(#maroon)">
+        <animate attributeName="width" values="105;126;105" dur="5s" repeatCount="indefinite"/>
       </rect>
-      <text x="382" y="205" text-anchor="end" font-size="14" fill="#f9a8d4">Queued</text>
+      <circle cx="146" cy="218.5" r="4.5" fill="#ffe4e6" filter="url(#glow)"><animate attributeName="cx" values="133;154;133" dur="5s" repeatCount="indefinite"/></circle>
+      <text x="392" y="244" text-anchor="end" font-size="13" fill="#fda4af">UP NEXT</text>
     </g>
+
+    <text x="700" y="407" text-anchor="middle" font-size="14" fill="#64748b" letter-spacing="1.6">PROGRESS IS MEASURED BY CONSISTENCY, NOT SPEED</text>
   </g>
 </svg>
