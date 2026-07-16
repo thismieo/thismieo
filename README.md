@@ -110,54 +110,41 @@ My long-term path includes **Data Analysis, Machine Learning, Deep Learning, Com
 
 ## 04. Tech Stack
 
-### Current Languages, Tools & Environment
-
 <div align="center">
 
-<a href="https://www.python.org/">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-</a>
-<a href="https://code.visualstudio.com/">
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code" />
-</a>
-<a href="https://git-scm.com/">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</a>
-<a href="https://github.com/">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<a href="https://www.microsoft.com/windows">
-  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
-</a>
+<img src="./assets/tech-ecosystem.svg" width="100%" alt="Animated current and future technology ecosystem" />
 
 </div>
 
-### Next Technologies
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<div align="center">
+### ⚙️ Current Toolkit
 
-<a href="https://numpy.org/">
-  <img src="https://img.shields.io/badge/NumPy-Next-4D77CF?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-</a>
-<a href="https://pandas.pydata.org/">
-  <img src="https://img.shields.io/badge/Pandas-Next-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-</a>
-<a href="https://jupyter.org/">
-  <img src="https://img.shields.io/badge/Jupyter-Next-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-</a>
-<a href="https://scikit-learn.org/">
-  <img src="https://img.shields.io/badge/Scikit--Learn-Planned-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn" />
-</a>
-<a href="https://pytorch.org/">
-  <img src="https://img.shields.io/badge/PyTorch-Planned-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-</a>
-<a href="https://www.tensorflow.org/">
-  <img src="https://img.shields.io/badge/TensorFlow-Planned-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-</a>
+- [**Python**](https://www.python.org/) — Core language for programming logic, automation, data, and future AI development.
+- [**Visual Studio Code**](https://code.visualstudio.com/) — Main workspace for writing, running, organizing, and debugging code.
+- [**Git**](https://git-scm.com/) — Version-control system for tracking changes and building disciplined development habits.
+- [**GitHub**](https://github.com/) — Platform for publishing projects, documenting progress, and collaborating publicly.
+- [**Windows**](https://www.microsoft.com/windows) — Current operating environment for development and learning.
 
-</div>
+</td>
+<td width="50%" valign="top">
 
-> Every icon above is connected to its official website or documentation.
+### 🚀 Next Learning Layer
+
+- [**NumPy**](https://numpy.org/) — Fast numerical arrays and mathematical operations for data and machine learning.
+- [**Pandas**](https://pandas.pydata.org/) — Structured data analysis, cleaning, transformation, and exploration.
+- [**Jupyter**](https://jupyter.org/) — Interactive notebooks for experiments, explanations, visualizations, and analysis.
+- [**Scikit-learn**](https://scikit-learn.org/) — Practical machine-learning models, preprocessing, evaluation, and pipelines.
+- [**PyTorch**](https://pytorch.org/) — Flexible deep-learning framework for neural networks and research-oriented projects.
+- [**TensorFlow**](https://www.tensorflow.org/) — Scalable framework for building and deploying intelligent neural systems.
+
+</td>
+</tr>
+</table>
+
+> **Technology strategy:** Build a strong programming foundation first, expand into data tools, then move into machine learning and deep learning with practical projects.
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
