@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" role="img" aria-label="Animated neural divider">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="80%" stop-color="#9f3f66"/>
+      <stop offset="100%" stop-color="#9f3f66" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path d="M80 35 C280 15 360 55 520 35 S760 15 920 35 S1080 55 1120 35" fill="none" stroke="url(#g)" stroke-width="2" filter="url(#glow)"/>
+  <g fill="#dcd6ff" filter="url(#glow)">
+    <circle cx="300" cy="28" r="5"/><circle cx="600" cy="35" r="6"/><circle cx="900" cy="42" r="5"/>
+  </g>
+</svg>
