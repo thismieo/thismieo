@@ -112,39 +112,51 @@ My long-term path includes **Data Analysis, Machine Learning, Deep Learning, Com
 
 <div align="center">
 
-<img src="./assets/tech-ecosystem.svg" width="100%" alt="Animated current and future technology ecosystem" />
+<img src="./assets/tech-ecosystem.svg" width="100%" alt="Animated engineering stack architecture" />
 
 </div>
 
+### Engineering Layers
+
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### ⚙️ Current Toolkit
+#### Foundation & Workflow · **Active**
 
-- [**Python**](https://www.python.org/) — Core language for programming logic, automation, data, and future AI development.
-- [**Visual Studio Code**](https://code.visualstudio.com/) — Main workspace for writing, running, organizing, and debugging code.
-- [**Git**](https://git-scm.com/) — Version-control system for tracking changes and building disciplined development habits.
-- [**GitHub**](https://github.com/) — Platform for publishing projects, documenting progress, and collaborating publicly.
-- [**Windows**](https://www.microsoft.com/windows) — Current operating environment for development and learning.
+- [**Windows**](https://www.microsoft.com/windows) — Development environment
+- [**Visual Studio Code**](https://code.visualstudio.com/) — Editing and debugging workspace
+- [**Python**](https://www.python.org/) — Core programming and AI language
+- [**Git**](https://git-scm.com/) — Version control and change tracking
+- [**GitHub**](https://github.com/) — Projects, documentation, and collaboration
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🚀 Next Learning Layer
+#### Data Layer · **Next**
 
-- [**NumPy**](https://numpy.org/) — Fast numerical arrays and mathematical operations for data and machine learning.
-- [**Pandas**](https://pandas.pydata.org/) — Structured data analysis, cleaning, transformation, and exploration.
-- [**Jupyter**](https://jupyter.org/) — Interactive notebooks for experiments, explanations, visualizations, and analysis.
-- [**Scikit-learn**](https://scikit-learn.org/) — Practical machine-learning models, preprocessing, evaluation, and pipelines.
-- [**PyTorch**](https://pytorch.org/) — Flexible deep-learning framework for neural networks and research-oriented projects.
-- [**TensorFlow**](https://www.tensorflow.org/) — Scalable framework for building and deploying intelligent neural systems.
+- [**NumPy**](https://numpy.org/) — Numerical arrays and computation
+- [**Pandas**](https://pandas.pydata.org/) — Data cleaning, analysis, and transformation
+- [**Jupyter**](https://jupyter.org/) — Interactive notebooks and experiments
+
+**Purpose:** Convert raw information into structured, analysable data.
+
+</td>
+<td width="33%" valign="top">
+
+#### AI Frameworks · **Planned**
+
+- [**Scikit-learn**](https://scikit-learn.org/) — Classical machine-learning pipelines
+- [**PyTorch**](https://pytorch.org/) — Flexible neural-network development
+- [**TensorFlow**](https://www.tensorflow.org/) — Scalable training and deployment
+
+**Purpose:** Build, evaluate, and deploy intelligent models.
 
 </td>
 </tr>
 </table>
 
-> **Technology strategy:** Build a strong programming foundation first, expand into data tools, then move into machine learning and deep learning with practical projects.
+> **Stack strategy:** Establish a disciplined development foundation, master the data layer, then progress through machine learning and deep learning by building documented projects.
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
