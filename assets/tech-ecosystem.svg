@@ -1,182 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 620" role="img" aria-labelledby="title desc">
   <title id="title">Mohammed Muayad Technology Ecosystem</title>
-  <desc id="desc">Animated technology map showing the current toolkit and the next learning technologies.</desc>
+  <desc id="desc">Compact animated technology map showing the current toolkit and the next learning technologies.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#08060f"/>
-      <stop offset="52%" stop-color="#0a1426"/>
+      <stop offset="54%" stop-color="#0a1426"/>
       <stop offset="100%" stop-color="#170a17"/>
     </linearGradient>
 
     <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#fb4d83" stop-opacity="0.26"/>
-      <stop offset="48%" stop-color="#8b5cf6" stop-opacity="0.78"/>
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.26"/>
+      <stop offset="0%" stop-color="#fb4d83" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.25"/>
     </linearGradient>
 
     <linearGradient id="currentLine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#fb7185"/>
-      <stop offset="48%" stop-color="#c084fc"/>
+      <stop offset="50%" stop-color="#c084fc"/>
       <stop offset="100%" stop-color="#60a5fa"/>
     </linearGradient>
 
     <linearGradient id="nextLine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#60a5fa"/>
-      <stop offset="48%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
       <stop offset="100%" stop-color="#fb7185"/>
     </linearGradient>
 
-    <radialGradient id="core" cx="50%" cy="42%" r="65%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.72"/>
-      <stop offset="55%" stop-color="#312e81" stop-opacity="0.48"/>
-      <stop offset="100%" stop-color="#111827" stop-opacity="0.95"/>
+    <radialGradient id="core" cx="42%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#9f7aea" stop-opacity="0.88"/>
+      <stop offset="58%" stop-color="#312e81" stop-opacity="0.56"/>
+      <stop offset="100%" stop-color="#111827" stop-opacity="0.98"/>
     </radialGradient>
 
-    <radialGradient id="pinkNode" cx="40%" cy="35%" r="70%">
-      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.85"/>
+    <radialGradient id="pinkNode" cx="38%" cy="32%" r="72%">
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.88"/>
       <stop offset="100%" stop-color="#3b1022" stop-opacity="0.98"/>
     </radialGradient>
 
-    <radialGradient id="blueNode" cx="40%" cy="35%" r="70%">
-      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.85"/>
+    <radialGradient id="blueNode" cx="38%" cy="32%" r="72%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.88"/>
       <stop offset="100%" stop-color="#0f274e" stop-opacity="0.98"/>
     </radialGradient>
 
-    <radialGradient id="violetNode" cx="40%" cy="35%" r="70%">
-      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.82"/>
+    <radialGradient id="violetNode" cx="38%" cy="32%" r="72%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.86"/>
       <stop offset="100%" stop-color="#251140" stop-opacity="0.98"/>
     </radialGradient>
 
     <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
     <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="1.8" result="b"/>
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
-    <path id="currentRoute" d="M165 318 C300 190 450 170 700 318 C950 170 1100 190 1235 318"/>
-    <path id="nextRoute" d="M145 560 C340 410 510 675 700 520 C890 675 1060 410 1255 560"/>
+    <path id="currentRoute" d="M220 248 C350 140 505 150 700 248 C895 150 1050 140 1180 248"/>
+    <path id="nextRoute" d="M210 468 C365 350 515 555 700 448 C885 555 1035 350 1190 468"/>
   </defs>
 
-  <rect width="1400" height="760" rx="28" fill="url(#bg)"/>
-  <rect x="1.5" y="1.5" width="1397" height="757" rx="27" fill="none" stroke="url(#border)" stroke-width="3"/>
+  <!-- Compact centered card -->
+  <rect x="72" y="18" width="1256" height="584" rx="26" fill="url(#bg)"/>
+  <rect x="73.5" y="19.5" width="1253" height="581" rx="24.5" fill="none" stroke="url(#border)" stroke-width="3"/>
 
   <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
-    <text x="700" y="58" font-size="34" font-weight="750" fill="#ffffff">Technology Ecosystem</text>
-    <text x="700" y="88" font-size="14" fill="#aeb8d8" letter-spacing="2.5">CURRENT TOOLKIT • NEXT LEARNING LAYER</text>
+    <text x="700" y="60" font-size="31" font-weight="750" fill="#ffffff">Technology Ecosystem</text>
+    <text x="700" y="86" font-size="12.5" fill="#aeb8d8" letter-spacing="2.1">CURRENT TOOLKIT • NEXT LEARNING LAYER</text>
   </g>
 
+  <!-- Routes -->
   <g fill="none" stroke-linecap="round" filter="url(#soft)">
-    <path d="M165 318 C300 190 450 170 700 318 C950 170 1100 190 1235 318" stroke="url(#currentLine)" stroke-width="2.3" opacity="0.72"/>
-    <path d="M165 318 C300 190 450 170 700 318 C950 170 1100 190 1235 318" stroke="url(#currentLine)" stroke-width="0.9" stroke-dasharray="8 15" opacity="0.78">
-      <animate attributeName="stroke-dashoffset" values="0;-260" dur="16s" repeatCount="indefinite"/>
+    <path d="M220 248 C350 140 505 150 700 248 C895 150 1050 140 1180 248" stroke="url(#currentLine)" stroke-width="2.1" opacity="0.68"/>
+    <path d="M220 248 C350 140 505 150 700 248 C895 150 1050 140 1180 248" stroke="url(#currentLine)" stroke-width="0.8" stroke-dasharray="7 15" opacity="0.78">
+      <animate attributeName="stroke-dashoffset" values="0;-250" dur="17s" repeatCount="indefinite"/>
     </path>
 
-    <path d="M145 560 C340 410 510 675 700 520 C890 675 1060 410 1255 560" stroke="url(#nextLine)" stroke-width="2" opacity="0.6"/>
-    <path d="M145 560 C340 410 510 675 700 520 C890 675 1060 410 1255 560" stroke="url(#nextLine)" stroke-width="0.85" stroke-dasharray="7 14" opacity="0.72">
-      <animate attributeName="stroke-dashoffset" values="0;260" dur="18s" repeatCount="indefinite"/>
+    <path d="M210 468 C365 350 515 555 700 448 C885 555 1035 350 1190 468" stroke="url(#nextLine)" stroke-width="1.9" opacity="0.58"/>
+    <path d="M210 468 C365 350 515 555 700 448 C885 555 1035 350 1190 468" stroke="url(#nextLine)" stroke-width="0.75" stroke-dasharray="7 14" opacity="0.72">
+      <animate attributeName="stroke-dashoffset" values="0;250" dur="19s" repeatCount="indefinite"/>
     </path>
   </g>
 
+  <!-- Moving signals -->
   <g filter="url(#glow)">
-    <circle r="6" fill="#ffffff">
-      <animateMotion dur="11s" repeatCount="indefinite"><mpath href="#currentRoute"/></animateMotion>
+    <circle r="5.3" fill="#ffffff">
+      <animateMotion dur="12s" repeatCount="indefinite"><mpath href="#currentRoute"/></animateMotion>
     </circle>
-    <circle r="5" fill="#d8b4fe">
-      <animateMotion dur="14s" begin="-5s" repeatCount="indefinite"><mpath href="#nextRoute"/></animateMotion>
+    <circle r="4.4" fill="#d8b4fe">
+      <animateMotion dur="15s" begin="-5s" repeatCount="indefinite"><mpath href="#nextRoute"/></animateMotion>
     </circle>
   </g>
 
+  <!-- Current toolkit -->
   <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
-    <g transform="translate(700 318)">
-      <circle r="96" fill="url(#core)" stroke="#c084fc" stroke-width="2.5" filter="url(#glow)">
-        <animate attributeName="r" values="93;99;93" dur="5s" repeatCount="indefinite"/>
+    <g transform="translate(700 248)">
+      <circle r="80" fill="url(#core)" stroke="#c084fc" stroke-width="2.4" filter="url(#glow)">
+        <animate attributeName="r" values="78;82;78" dur="5.5s" repeatCount="indefinite"/>
       </circle>
-      <circle r="75" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1.2" stroke-dasharray="6 12">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/>
+      <circle r="62" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1" stroke-dasharray="5 11">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
       </circle>
-      <text y="-14" font-size="28" font-weight="750" fill="#ffffff">PYTHON</text>
-      <text y="18" font-size="14" fill="#d8b4fe" letter-spacing="1.8">CORE LANGUAGE</text>
-      <text y="47" font-size="14" fill="#cbd5e1">Logic • Automation • AI</text>
+      <text y="-13" font-size="24" font-weight="750" fill="#ffffff">PYTHON</text>
+      <text y="15" font-size="12" fill="#d8b4fe" letter-spacing="1.5">CORE LANGUAGE</text>
+      <text y="39" font-size="11.5" fill="#cbd5e1">Logic • Automation • AI</text>
     </g>
 
-    <g transform="translate(170 318)">
-      <circle r="58" fill="url(#blueNode)" stroke="#60a5fa" stroke-width="2"/>
-      <text y="-7" font-size="19" font-weight="700" fill="#ffffff">VS CODE</text>
-      <text y="19" font-size="12" fill="#bfdbfe">Development workspace</text>
+    <g transform="translate(225 248)">
+      <circle r="50" fill="url(#blueNode)" stroke="#60a5fa" stroke-width="1.8"/>
+      <text y="-6" font-size="16" font-weight="700" fill="#ffffff">VS CODE</text>
+      <text y="16" font-size="10.2" fill="#bfdbfe">Editor &amp; debugging</text>
     </g>
 
-    <g transform="translate(390 212)">
-      <circle r="58" fill="url(#pinkNode)" stroke="#fb7185" stroke-width="2"/>
-      <text y="-7" font-size="20" font-weight="700" fill="#ffffff">GIT</text>
-      <text y="19" font-size="12" fill="#fecdd3">Version control</text>
+    <g transform="translate(430 158)">
+      <circle r="50" fill="url(#pinkNode)" stroke="#fb7185" stroke-width="1.8"/>
+      <text y="-6" font-size="17" font-weight="700" fill="#ffffff">GIT</text>
+      <text y="16" font-size="10.5" fill="#fecdd3">Version control</text>
     </g>
 
-    <g transform="translate(1010 212)">
-      <circle r="58" fill="url(#violetNode)" stroke="#c084fc" stroke-width="2"/>
-      <text y="-7" font-size="18" font-weight="700" fill="#ffffff">GITHUB</text>
-      <text y="19" font-size="12" fill="#e9d5ff">Projects &amp; collaboration</text>
+    <g transform="translate(970 158)">
+      <circle r="50" fill="url(#violetNode)" stroke="#c084fc" stroke-width="1.8"/>
+      <text y="-6" font-size="15" font-weight="700" fill="#ffffff">GITHUB</text>
+      <text y="16" font-size="10.2" fill="#e9d5ff">Projects &amp; sharing</text>
     </g>
 
-    <g transform="translate(1230 318)">
-      <circle r="58" fill="url(#blueNode)" stroke="#60a5fa" stroke-width="2"/>
-      <text y="-7" font-size="18" font-weight="700" fill="#ffffff">WINDOWS</text>
-      <text y="19" font-size="12" fill="#bfdbfe">Current environment</text>
+    <g transform="translate(1175 248)">
+      <circle r="50" fill="url(#blueNode)" stroke="#60a5fa" stroke-width="1.8"/>
+      <text y="-6" font-size="14.5" font-weight="700" fill="#ffffff">WINDOWS</text>
+      <text y="16" font-size="10" fill="#bfdbfe">Work environment</text>
     </g>
   </g>
 
+  <!-- Next learning layer label -->
   <g font-family="Segoe UI, Inter, Arial, sans-serif">
-    <text x="78" y="470" font-size="14" fill="#fda4af" letter-spacing="2.2">NEXT TECHNOLOGIES</text>
-    <text x="78" y="498" font-size="24" font-weight="700" fill="#ffffff">Learning Layer</text>
+    <text x="130" y="378" font-size="12" fill="#fda4af" letter-spacing="2">NEXT TECHNOLOGIES</text>
+    <text x="130" y="401" font-size="20" font-weight="700" fill="#ffffff">Learning Layer</text>
   </g>
 
+  <!-- Future technologies -->
   <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
-    <g transform="translate(150 560)">
-      <circle r="48" fill="url(#blueNode)" stroke="#60a5fa" stroke-width="1.8"/>
-      <text y="-5" font-size="18" font-weight="700" fill="#ffffff">NumPy</text>
-      <text y="19" font-size="11" fill="#bfdbfe">Numerical arrays</text>
-      <circle r="54" fill="none" stroke="#60a5fa" stroke-opacity="0.35"><animate attributeName="r" values="51;58;51" dur="4.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0.08;0.5" dur="4.2s" repeatCount="indefinite"/></circle>
+    <g transform="translate(215 468)">
+      <circle r="42" fill="url(#blueNode)" stroke="#60a5fa" stroke-width="1.6"/>
+      <text y="-5" font-size="14.5" font-weight="700" fill="#ffffff">NumPy</text>
+      <text y="15" font-size="9.4" fill="#bfdbfe">Numerical arrays</text>
+      <circle r="47" fill="none" stroke="#60a5fa" stroke-opacity="0.28">
+        <animate attributeName="r" values="45;51;45" dur="4.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.45;0.05;0.45" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
     </g>
 
-    <g transform="translate(350 474)">
-      <circle r="48" fill="url(#violetNode)" stroke="#c084fc" stroke-width="1.8"/>
-      <text y="-5" font-size="18" font-weight="700" fill="#ffffff">Pandas</text>
-      <text y="19" font-size="11" fill="#e9d5ff">Data analysis</text>
+    <g transform="translate(390 392)">
+      <circle r="42" fill="url(#violetNode)" stroke="#c084fc" stroke-width="1.6"/>
+      <text y="-5" font-size="14" font-weight="700" fill="#ffffff">Pandas</text>
+      <text y="15" font-size="9.5" fill="#e9d5ff">Data analysis</text>
     </g>
 
-    <g transform="translate(545 610)">
-      <circle r="48" fill="url(#pinkNode)" stroke="#fb7185" stroke-width="1.8"/>
-      <text y="-5" font-size="18" font-weight="700" fill="#ffffff">Jupyter</text>
-      <text y="19" font-size="11" fill="#fecdd3">Interactive notebooks</text>
+    <g transform="translate(560 505)">
+      <circle r="42" fill="url(#pinkNode)" stroke="#fb7185" stroke-width="1.6"/>
+      <text y="-5" font-size="13.7" font-weight="700" fill="#ffffff">Jupyter</text>
+      <text y="15" font-size="9" fill="#fecdd3">Notebooks</text>
     </g>
 
-    <g transform="translate(855 610)">
-      <circle r="48" fill="url(#blueNode)" stroke="#60a5fa" stroke-width="1.8"/>
-      <text y="-5" font-size="15" font-weight="700" fill="#ffffff">Scikit-learn</text>
-      <text y="19" font-size="11" fill="#bfdbfe">Machine learning</text>
+    <g transform="translate(840 505)">
+      <circle r="42" fill="url(#blueNode)" stroke="#60a5fa" stroke-width="1.6"/>
+      <text y="-5" font-size="11.4" font-weight="700" fill="#ffffff">Scikit-learn</text>
+      <text y="15" font-size="9" fill="#bfdbfe">ML toolkit</text>
     </g>
 
-    <g transform="translate(1050 474)">
-      <circle r="48" fill="url(#violetNode)" stroke="#c084fc" stroke-width="1.8"/>
-      <text y="-5" font-size="18" font-weight="700" fill="#ffffff">PyTorch</text>
-      <text y="19" font-size="11" fill="#e9d5ff">Deep learning</text>
+    <g transform="translate(1010 392)">
+      <circle r="42" fill="url(#violetNode)" stroke="#c084fc" stroke-width="1.6"/>
+      <text y="-5" font-size="13.4" font-weight="700" fill="#ffffff">PyTorch</text>
+      <text y="15" font-size="9.2" fill="#e9d5ff">Deep learning</text>
     </g>
 
-    <g transform="translate(1250 560)">
-      <circle r="48" fill="url(#pinkNode)" stroke="#fb7185" stroke-width="1.8"/>
-      <text y="-5" font-size="16" font-weight="700" fill="#ffffff">TensorFlow</text>
-      <text y="19" font-size="11" fill="#fecdd3">Neural systems</text>
-      <circle r="54" fill="none" stroke="#fb7185" stroke-opacity="0.32"><animate attributeName="r" values="51;58;51" dur="4.5s" begin="-1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0.08;0.5" dur="4.5s" begin="-1.5s" repeatCount="indefinite"/></circle>
+    <g transform="translate(1185 468)">
+      <circle r="42" fill="url(#pinkNode)" stroke="#fb7185" stroke-width="1.6"/>
+      <text y="-5" font-size="11.6" font-weight="700" fill="#ffffff">TensorFlow</text>
+      <text y="15" font-size="9" fill="#fecdd3">Neural systems</text>
+      <circle r="47" fill="none" stroke="#fb7185" stroke-opacity="0.26">
+        <animate attributeName="r" values="45;51;45" dur="4.8s" begin="-1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.45;0.05;0.45" dur="4.8s" begin="-1.5s" repeatCount="indefinite"/>
+      </circle>
     </g>
   </g>
 
+  <!-- Strategy line -->
   <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
-    <rect x="485" y="694" width="430" height="38" rx="19" fill="#0b1020" stroke="#8b5cf6" stroke-opacity="0.48"/>
-    <text x="700" y="719" font-size="14" fill="#cbd5e1" letter-spacing="1.2">BUILD THE FOUNDATION → EXPAND THE STACK → CREATE AI SYSTEMS</text>
+    <rect x="500" y="552" width="400" height="34" rx="17" fill="#0b1020" stroke="#8b5cf6" stroke-opacity="0.40"/>
+    <text x="700" y="574" font-size="11.8" fill="#cbd5e1" letter-spacing="0.9">FOUNDATION → DATA → MACHINE LEARNING → DEEP LEARNING</text>
   </g>
 </svg>
