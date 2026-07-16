@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 320" role="img" aria-labelledby="title desc">
+  <title id="title">Thanks for visiting Mohammed Muayad's profile</title>
+  <desc id="desc">Animated closing banner with neural waves and glowing nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090611"/>
+      <stop offset="52%" stop-color="#101c33"/>
+      <stop offset="100%" stop-color="#351222"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#c2416c" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="320" rx="28" fill="url(#bg)"/>
+
+  <path d="M0 210 C250 130 430 285 700 205 S1170 145 1600 230 V320 H0 Z" fill="#8b5cf6" opacity="0.15">
+    <animate attributeName="d" dur="11s" repeatCount="indefinite"
+      values="M0 210 C250 130 430 285 700 205 S1170 145 1600 230 V320 H0 Z;
+              M0 235 C280 300 470 150 760 225 S1210 300 1600 205 V320 H0 Z;
+              M0 210 C250 130 430 285 700 205 S1170 145 1600 230 V320 H0 Z"/>
+  </path>
+
+  <path d="M0 250 C320 195 520 310 820 250 S1270 190 1600 260 V320 H0 Z" fill="#22d3ee" opacity="0.11">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite"
+      values="M0 250 C320 195 520 310 820 250 S1270 190 1600 260 V320 H0 Z;
+              M0 230 C340 305 560 205 860 255 S1300 310 1600 235 V320 H0 Z;
+              M0 250 C320 195 520 310 820 250 S1270 190 1600 260 V320 H0 Z"/>
+  </path>
+
+  <path d="M130 92 C340 25 510 155 700 92 S1040 25 1460 105" fill="none" stroke="url(#g)" stroke-width="2.2" stroke-dasharray="10 12" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-240" dur="15s" repeatCount="indefinite"/>
+  </path>
+
+  <g fill="#e8e1ff" filter="url(#glow)">
+    <circle cx="130" cy="92" r="5"><animate attributeName="r" values="4;8;4" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="92" r="6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1460" cy="105" r="5"><animate attributeName="r" values="4;8;4" dur="3.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="800" y="145" font-size="42" font-weight="700" fill="#ffffff">Thanks for Visiting My Profile</text>
+    <text x="800" y="188" font-size="22" fill="#d8d7ff">Always Learning • Always Building • Always Improving</text>
+    <text x="800" y="235" font-size="17" fill="#8ed8ff" letter-spacing="1.5">MOHAMMED MUAYAD · AI ENGINEERING JOURNEY · VERSION 1.0</text>
+  </g>
+</svg>
