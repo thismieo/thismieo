@@ -219,27 +219,23 @@ NLP, LLMs, and generative AI systems that understand requests, retrieve knowledg
 
 <div align="center">
 
+<img src="./assets/github-presence.svg" width="100%" alt="Animated GitHub presence dashboard" />
+
+<br/>
+
 <a href="https://github.com/thismieo?tab=repositories">
-  <img src="https://img.shields.io/badge/Explore-Repositories-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
+  <img src="https://img.shields.io/badge/Repositories-Explore-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="Explore repositories" />
 </a>
 <a href="https://github.com/thismieo?tab=overview">
-  <img src="https://img.shields.io/badge/View-Contributions-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Contributions" />
+  <img src="https://img.shields.io/badge/Contributions-View-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="View contributions" />
 </a>
 <a href="https://github.com/thismieo?tab=stars">
-  <img src="https://img.shields.io/badge/Saved-Starred%20Work-8B1E3F?style=for-the-badge&logo=github&logoColor=white" alt="Starred repositories" />
+  <img src="https://img.shields.io/badge/Starred%20Work-Open-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="View starred repositories" />
 </a>
-
-<br/><br/>
-
-| Signal | Purpose |
-|:---:|---|
-| **Repositories** | Projects, experiments, documentation, and future AI implementations. |
-| **Contributions** | A visible record of consistent learning, commits, and project development. |
-| **Activity** | Public progress that shows how knowledge is converted into practical work. |
 
 </div>
 
-> This section intentionally uses stable GitHub links instead of unreliable external images, preventing broken analytics cards.
+> The dashboard uses stable GitHub destinations and presents repositories, contributions, and activity as parts of one public engineering journey.
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
@@ -326,63 +322,29 @@ Contribute to open source and develop a credible AI engineering portfolio.
 
 <div align="center">
 
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
+<img src="./assets/connect-network.svg" width="100%" alt="Animated contact and social network" />
 
-### 📧 Public Email
-
-For professional communication, learning opportunities, and collaboration.
+<br/>
 
 <a href="mailto:thismieo@gmail.com">
-  <img src="https://img.shields.io/badge/thismieo%40gmail.com-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Public Gmail" />
+  <img src="https://img.shields.io/badge/Gmail-Public%20Email-1E293B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1020" alt="Public Gmail" />
 </a>
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### 💼 Personal Email
-
-For direct and personal communication.
-
 <a href="mailto:thismieo@outlook.com">
-  <img src="https://img.shields.io/badge/thismieo%40outlook.com-Contact-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Personal Outlook" />
+  <img src="https://img.shields.io/badge/Outlook-Personal%20Email-1E293B?style=for-the-badge&logo=microsoftoutlook&logoColor=white&labelColor=0B1020" alt="Personal Outlook" />
 </a>
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### 📊 Kaggle
-
-For future datasets, notebooks, competitions, and data-science work.
-
 <a href="https://www.kaggle.com/thismieo">
-  <img src="https://img.shields.io/badge/Kaggle-thismieo-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle profile" />
+  <img src="https://img.shields.io/badge/Kaggle-thismieo-1E293B?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0B1020" alt="Kaggle profile" />
 </a>
-
-</td>
-</tr>
-</table>
-
-### 📸 Instagram
-
-Personal updates, visual moments, and selected highlights from the journey.
-
 <a href="https://www.instagram.com/thismieo/">
-  <img src="https://img.shields.io/badge/Instagram-%40thismieo-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram profile" />
+  <img src="https://img.shields.io/badge/Instagram-%40thismieo-1E293B?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0B1020" alt="Instagram profile" />
 </a>
-
-<br/><br/>
-
 <a href="https://github.com/thismieo">
-  <img src="https://img.shields.io/badge/GitHub-Follow%20the%20Journey-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+  <img src="https://img.shields.io/badge/GitHub-Follow%20the%20Journey-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="GitHub profile" />
 </a>
-
-<br/><br/>
-
-**Open to learning, collaboration, and building meaningful AI projects.**
 
 </div>
+
+> **Open to learning, collaboration, and building meaningful AI projects.**
 
 <br/>
 
