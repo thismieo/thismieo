@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Mohammed Muayad — AI Engineering Student</title>
+  <desc id="desc">Calm animated AI banner with a distributed neural mesh, moving signal particles, soft maroon violet and blue glows, and flowing waves.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07040d"/>
+      <stop offset="30%" stop-color="#160817"/>
+      <stop offset="58%" stop-color="#0a0b1d"/>
+      <stop offset="100%" stop-color="#06152c"/>
+    </linearGradient>
+
+    <radialGradient id="maroonGlow">
+      <stop offset="0%" stop-color="#c0265e" stop-opacity="0.58"/>
+      <stop offset="55%" stop-color="#76163d" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#3b0a21" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.34"/>
+      <stop offset="58%" stop-color="#4c1d95" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#24104a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.46"/>
+      <stop offset="58%" stop-color="#173d91" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#071b47" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="centerShade">
+      <stop offset="0%" stop-color="#050812" stop-opacity="0.94"/>
+      <stop offset="70%" stop-color="#050812" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#050812" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="network" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fb4d83"/>
+      <stop offset="30%" stop-color="#d946ef"/>
+      <stop offset="52%" stop-color="#a78bfa"/>
+      <stop offset="72%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fb4d83" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#e879f9"/>
+      <stop offset="65%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#be185d" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#db2777" stop-opacity="0.25"/>
+      <stop offset="68%" stop-color="#7c3aed" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#ffffff" stroke-opacity="0.018" stroke-width="1"/>
+    </pattern>
+
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="1.7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="620" rx="26" fill="url(#bg)"/>
+  <rect width="1600" height="620" rx="26" fill="url(#grid)"/>
+
+  <ellipse cx="210" cy="290" rx="470" ry="320" fill="url(#maroonGlow)" filter="url(#blur)">
+    <animate attributeName="cx" values="180;250;180" dur="15s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="800" cy="250" rx="420" ry="255" fill="url(#violetGlow)" filter="url(#blur)">
+    <animate attributeName="opacity" values="0.55;0.9;0.55" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1390" cy="295" rx="480" ry="325" fill="url(#blueGlow)" filter="url(#blur)">
+    <animate attributeName="cx" values="1420;1345;1420" dur="16s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Calm distributed neural mesh -->
+  <g fill="none" stroke="url(#network)" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
+    <path id="n1" d="M-30 132 C120 48 238 176 372 118 S650 56 790 132 S1048 214 1196 122 S1460 44 1630 136" stroke-width="1.35" opacity="0.58"/>
+    <path id="n2" d="M-20 230 C142 158 254 278 410 218 S650 148 800 224 S1060 302 1218 214 S1466 146 1620 230" stroke-width="1.15" opacity="0.50"/>
+    <path id="n3" d="M-25 344 C128 262 270 392 430 326 S682 258 818 338 S1084 422 1240 330 S1468 268 1625 350" stroke-width="1.25" opacity="0.54"/>
+    <path id="n4" d="M20 454 C176 392 300 504 468 448 S720 386 850 452 S1100 520 1280 446 S1480 400 1600 458" stroke-width="1.05" opacity="0.42"/>
+
+    <path d="M92 78 C160 158 178 250 148 390" stroke-width="0.9" opacity="0.34"/>
+    <path d="M248 166 C300 222 328 292 318 424" stroke-width="0.95" opacity="0.38"/>
+    <path d="M420 112 C470 194 474 286 430 326" stroke-width="0.9" opacity="0.34"/>
+    <path d="M590 82 C622 158 642 238 620 398" stroke-width="0.85" opacity="0.30"/>
+    <path d="M1008 96 C970 170 964 260 1004 404" stroke-width="0.85" opacity="0.30"/>
+    <path d="M1188 122 C1136 206 1130 292 1182 426" stroke-width="0.9" opacity="0.34"/>
+    <path d="M1362 90 C1304 176 1290 278 1328 406" stroke-width="0.95" opacity="0.38"/>
+    <path d="M1510 152 C1438 214 1410 316 1452 444" stroke-width="0.9" opacity="0.34"/>
+
+    <path d="M64 284 C220 192 350 176 522 220 S770 312 936 260 S1248 142 1536 230" stroke-width="0.75" opacity="0.28"/>
+    <path d="M76 400 C252 334 390 292 560 330 S838 426 1016 372 S1300 286 1524 348" stroke-width="0.75" opacity="0.26"/>
+  </g>
+
+  <!-- Animated signals travelling through the network -->
+  <g filter="url(#glow)">
+    <circle r="4.2" fill="#fb7185">
+      <animateMotion dur="9s" repeatCount="indefinite"><mpath href="#n1"/></animateMotion>
+    </circle>
+    <circle r="3.8" fill="#c084fc">
+      <animateMotion dur="11s" begin="-4s" repeatCount="indefinite"><mpath href="#n2"/></animateMotion>
+    </circle>
+    <circle r="4.1" fill="#818cf8">
+      <animateMotion dur="12s" begin="-7s" repeatCount="indefinite"><mpath href="#n3"/></animateMotion>
+    </circle>
+    <circle r="3.7" fill="#60a5fa">
+      <animateMotion dur="10s" begin="-2s" repeatCount="indefinite"><mpath href="#n4"/></animateMotion>
+    </circle>
+  </g>
+
+  <!-- Distributed nodes -->
+  <g filter="url(#glow)">
+    <g fill="#ff9bb8">
+      <circle cx="92" cy="78" r="3.5"/><circle cx="148" cy="230" r="4.4"/><circle cx="248" cy="166" r="3.4"/>
+      <circle cx="318" cy="344" r="4.2"/><circle cx="420" cy="112" r="3.8"/><circle cx="522" cy="220" r="4"/>
+    </g>
+    <g fill="#d8b4fe">
+      <circle cx="590" cy="82" r="3.3"/><circle cx="620" cy="398" r="3.7"/><circle cx="742" cy="132" r="3.4"/>
+      <circle cx="850" cy="452" r="3.5"/><circle cx="936" cy="260" r="4.1"/>
+    </g>
+    <g fill="#93c5fd">
+      <circle cx="1008" cy="96" r="3.4"/><circle cx="1004" cy="404" r="3.8"/><circle cx="1188" cy="122" r="4"/>
+      <circle cx="1182" cy="426" r="3.5"/><circle cx="1362" cy="90" r="3.8"/><circle cx="1328" cy="330" r="4.3"/>
+      <circle cx="1510" cy="152" r="3.4"/><circle cx="1452" cy="444" r="3.7"/>
+    </g>
+  </g>
+
+  <!-- Gentle pulse rings -->
+  <g fill="none" filter="url(#glow)">
+    <circle cx="148" cy="230" r="11" stroke="#fb7185" stroke-width="1.1">
+      <animate attributeName="r" values="8;22;8" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.05;0.8" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="936" cy="260" r="10" stroke="#c084fc" stroke-width="1.1">
+      <animate attributeName="r" values="8;21;8" dur="5.2s" begin="-1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.72;0.04;0.72" dur="5.2s" begin="-1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1328" cy="330" r="11" stroke="#60a5fa" stroke-width="1.1">
+      <animate attributeName="r" values="8;23;8" dur="4.9s" begin="-2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.78;0.04;0.78" dur="4.9s" begin="-2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Dark focus field behind typography -->
+  <ellipse cx="800" cy="290" rx="450" ry="220" fill="url(#centerShade)"/>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="800" y="250" font-size="78" font-weight="750" fill="#ffffff" letter-spacing="0.8">Mohammed Muayad</text>
+    <text x="800" y="314" font-size="31" font-weight="600" fill="#d9ddff" letter-spacing="4">AI Engineering Student</text>
+    <rect x="485" y="350" width="630" height="2" rx="1" fill="url(#accent)">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="800" y="402" font-size="27" font-weight="500" fill="#f8fafc">Building the Future with Code &amp; Intelligence</text>
+  </g>
+
+  <!-- Soft flowing base -->
+  <path d="M0 500 C250 458 430 560 700 516 S1130 446 1600 524 V620 H0 Z" fill="url(#waveA)" opacity="0.66">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite"
+      values="M0 500 C250 458 430 560 700 516 S1130 446 1600 524 V620 H0 Z;
+              M0 526 C270 580 470 466 740 520 S1180 580 1600 494 V620 H0 Z;
+              M0 500 C250 458 430 560 700 516 S1130 446 1600 524 V620 H0 Z"/>
+  </path>
+  <path d="M0 548 C320 502 520 590 820 548 S1280 490 1600 558 V620 H0 Z" fill="url(#waveB)" opacity="0.62">
+    <animate attributeName="d" dur="17s" repeatCount="indefinite"
+      values="M0 548 C320 502 520 590 820 548 S1280 490 1600 558 V620 H0 Z;
+              M0 530 C340 594 560 512 860 552 S1300 600 1600 532 V620 H0 Z;
+              M0 548 C320 502 520 590 820 548 S1280 490 1600 558 V620 H0 Z"/>
+  </path>
+</svg>

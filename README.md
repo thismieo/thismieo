@@ -1,153 +1,363 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=29&duration=4400&700=3000&color=6366F1&center=true&vCenter=true&width=900&height=55&lines=%3E%3E%3E+from+future+import+AIEngineer;%3E%3E%3E+learning+%3D+True;%3E%3E%3E+building_projects+%3D+True;%3E%3E%3E+consistency+%2B%3D+1;%3E%3E%3E+status+%3D+%22One+Commit+at+a+Time+%F0%9F%9A%80%22"/>
+<img src="./assets/banner.svg" width="100%" alt="Mohammed Muayad — AI Engineering Student" />
 
-<br>
+<br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=12,20,24,27&text=Mohammed%20Muayad&fontSize=60&fontColor=ffffff&animation=fadeIn"/>
+<a href="https://github.com/thismieo">
+  <img src="https://img.shields.io/badge/GitHub-thismieo-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="GitHub profile" />
+</a>
+<a href="mailto:thismieo@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-Public%20Email-1E293B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1020" alt="Public email" />
+</a>
+<a href="mailto:thismieo@outlook.com">
+  <img src="https://img.shields.io/badge/Outlook-Personal%20Email-1E293B?style=for-the-badge&logo=microsoftoutlook&logoColor=white&labelColor=0B1020" alt="Personal email" />
+</a>
+<a href="https://www.kaggle.com/thismieo">
+  <img src="https://img.shields.io/badge/Kaggle-thismieo-1E293B?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0B1020" alt="Kaggle profile" />
+</a>
+<a href="https://www.instagram.com/thismieo/">
+  <img src="https://img.shields.io/badge/Instagram-%40thismieo-1E293B?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0B1020" alt="Instagram profile" />
+</a>
 
 </div>
 
----
-
-## *Hello* *there!* 👋 
-
-- 🧭 **About** **Me**
-> **I'm** **Mohammed** **Muayad** **an** **from** **Iraq** **building** **my** **skills** **from** **the** **ground** **up** **—** **one** **concept,** **one** **project,** **one** **commit** **at** **a** **time.** **This** **profile** **documents** **that** **journey** **publicly.**
-> 
-- **Location:** **Baghdad,** **IQ**
-> 
-> **Date of Birth:** **11** **December** **1997**
-
->
-- 🎓 **AI** **Engineering** **Student**
-> **Dedicated** **to** **continuous** **learning** **and** **building** **with** **purpose.**
- 
-<div align="center">
-
-<img src="https://img.shields.io/badge/Python-6366F1?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Artificial_Intelligence-6366F1?style=flat-square"/>
-<img src="https://img.shields.io/badge/Problem_Solving-6366F1?style=flat-square"/>
-<img src="https://img.shields.io/badge/Git_%26_GitHub-6366F1?style=flat-square&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Learning_in_Public-6366F1?style=flat-square"/>
-<img src="https://img.shields.io/badge/Building_AI_Projects-6366F1?style=flat-square"/>
-
-</div>
-
----
-
-## 📖 Learning
-
-- 🐍 Python
-- 📊 Data Analysis
-- 🧹 Data Preprocessing
-- 🤖 Machine Learning
-- 🧠 Deep Learning
-- 💬 NLP
-- 🚀 LLMs
-- ✨ Generative AI
-  
----
-
-## 🌍 Vision
-
-> **The** **work** **should** **speak** **before** **I** **do.**
-
----
-
-### 🗺️ Learning Roadmap
-
-| Stage | Topic | Status |
-|:---:|---|:---:|
-| 1 | 🐍 Python Fundamentals | ✅ In Progress |
-| 2 | 📊 Data Analysis | 🔄 Upcoming |
-| 3 | 🧹 Data Preprocessing | ⬜ Upcoming |
-| 4 | 🤖 Machine Learning | ⬜ Upcoming |
-| 5 | 🧠 Deep Learning | ⬜ Upcoming |
-| 6 | 💬 NLP | ⬜ Upcoming |
-| 7 | 🚀 LLMs | ⬜ Upcoming |
-| 8 | ✨ Generative AI | ⬜ Upcoming |
-
 <br/>
 
----
+<img src="./assets/intro-status.svg" width="100%" alt="Current AI engineering journey status" />
 
-### 🛠️ Tech Stack
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,vscode,git,github,pandas,numpy" height="55"/>
-</p>
+## 01. AI Identity
 
-<br/>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-🐍 Learning Python
+### 👤 Profile
 
-💻 Writing clean code in VS Code
+- **Name:** Mohammed Muayad
+- **Role:** AI Engineering Student
+- **Location:** Baghdad, Iraq
+- **Mission:** Build strong foundations in programming and artificial intelligence through consistent learning, practical projects, and public documentation.
 
-☕ Every line of code is a step forward.
+</td>
+<td width="50%" valign="top">
 
-🚀 Enjoying the journey.
+### 🧠 Current Focus
 
----
+- Python fundamentals and clean programming practices
+- Algorithms and problem-solving
+- Git and GitHub workflow
+- Preparing for Data Analysis and Machine Learning
 
-### 🎯 Goals
+</td>
+</tr>
+</table>
 
-- [ ] Complete Python Fundamentals
-- [ ] Master Machine Learning Fundamentals
-- [ ] Learn Deep Learning
-- [ ] Explore NLP, LLMs & Generative AI
-- [ ] Build 10+ AI Projects
-- [ ] Contribute to Open Source
-
-<br/>
-
----
-
-## 📂 Projects
-
-> 🚧 **Coming** **soon...**
-
-*Building something worth sharing.*
-
----
-
-## 📈 My Journey
-
-📅 Started on June 4, 2026
-
-> *"Every expert started somewhere."*
-
----
-
-## 📬 Connect with Me
-
-📧 **Email:** **thismieo@gmail.com**
-
-Let's connect and build something meaningful together.
-
----
-<br/>
+> **I am building my skills from the ground up — one concept, one project, and one commit at a time. This profile documents that journey publicly.**
 
 <div align="center">
 
-### Thanks for visiting my profile! 💜
-
-*Always learning. Always building. 🚀*
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient&customColorList=12,20,24,27"/>
+<img src="./assets/identity-icons.svg" width="62%" alt="Python, artificial intelligence, problem solving, Git and GitHub, and learning in public" />
 
 </div>
-<!--
-**thismieo/thismieo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 02. About Me
+
+I am an **AI Engineering Student** focused on developing practical, long-term skills in programming, data, and intelligent systems. My current priority is mastering the fundamentals correctly before moving into advanced topics.
+
+I use this GitHub profile to document my progress, publish future projects, and demonstrate consistency. My goal is not to collect technologies without understanding them; it is to build a solid engineering foundation and turn what I learn into real work.
+
+> **Vision:** *The work should speak before I do.*
+
+### 🌍 Artificial Intelligence & the Future
+
+Artificial intelligence helps transform data into decisions, automate repetitive work, improve healthcare, support safer transportation, enhance public services, and create tools that solve complex problems at scale.
+
+My long-term path includes **Data Analysis, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Robotics, Large Language Models, and Generative AI**. Each area contributes a different capability, but together they form the foundation of modern intelligent systems.
+
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+
+## 03. Progress Status
+
+<div align="center">
+
+<img src="./assets/progress-status.svg" width="100%" alt="Animated progress dashboard" />
+
+<br/>
+
+<img src="./assets/learning-roadmap.svg" width="100%" alt="Animated AI learning roadmap" />
+
+</div>
+
+### 📚 Learning Domains
+
+| Domain | What It Builds |
+|---|---|
+| **🐍 Python Fundamentals** | The programming foundation for writing logic, functions, loops, data structures, and clean reusable code. |
+| **📊 Data Analysis** | The ability to inspect, organize, visualize, and understand data before building intelligent models. |
+| **🧹 Data Preprocessing** | The process of cleaning data, handling missing values, encoding categories, and preparing reliable model inputs. |
+| **🤖 Machine Learning** | Algorithms that learn patterns from data to classify, predict, recommend, or detect unusual behavior. |
+| **🧠 Deep Learning** | Neural networks capable of learning complex patterns in images, language, audio, and large datasets. |
+| **👁️ Computer Vision** | Systems that understand images and video for detection, recognition, tracking, and visual automation. |
+| **💬 NLP** | Techniques that allow machines to understand, process, and generate human language. |
+| **🚀 LLMs & Generative AI** | Advanced models that generate text, code, images, and intelligent responses from learned knowledge. |
+
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+
+## 04. Tech Stack
+
+<div align="center">
+
+<img src="./assets/tech-ecosystem.svg" width="100%" alt="Animated engineering stack architecture" />
+
+</div>
+
+### Engineering Layers
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### Foundation & Workflow · **Active**
+
+- [**Windows**](https://www.microsoft.com/windows) — Development environment
+- [**Visual Studio Code**](https://code.visualstudio.com/) — Editing and debugging workspace
+- [**Python**](https://www.python.org/) — Core programming and AI language
+- [**Git**](https://git-scm.com/) — Version control and change tracking
+- [**GitHub**](https://github.com/) — Projects, documentation, and collaboration
+
+</td>
+<td width="33%" valign="top">
+
+#### Data Layer · **Next**
+
+- [**NumPy**](https://numpy.org/) — Numerical arrays and computation
+- [**Pandas**](https://pandas.pydata.org/) — Data cleaning, analysis, and transformation
+- [**Jupyter**](https://jupyter.org/) — Interactive notebooks and experiments
+
+**Purpose:** Convert raw information into structured, analysable data.
+
+</td>
+<td width="33%" valign="top">
+
+#### AI Frameworks · **Planned**
+
+- [**Scikit-learn**](https://scikit-learn.org/) — Classical machine-learning pipelines
+- [**PyTorch**](https://pytorch.org/) — Flexible neural-network development
+- [**TensorFlow**](https://www.tensorflow.org/) — Scalable training and deployment
+
+**Purpose:** Build, evaluate, and deploy intelligent models.
+
+</td>
+</tr>
+</table>
+
+> **Stack strategy:** Establish a disciplined development foundation, master the data layer, then progress through machine learning and deep learning by building documented projects.
+
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+
+## 05. Featured AI Focus Areas
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 👁️ Computer Vision
+
+Image classification, object detection, visual recognition, and intelligent systems that understand images and video.
+
+**Future direction:** Smart visual analysis projects.
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 Robotics Programming
+
+Combining software, sensors, decision-making, and automation to create machines that interact with the real world.
+
+**Future direction:** Intelligent robotic control.
+
+</td>
+<td width="33%" valign="top">
+
+### 🏛️ Government Systems
+
+AI systems that can improve digital services, document processing, public-data analysis, and operational efficiency.
+
+**Future direction:** Responsible public-sector automation.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 🚘 Autonomous Systems
+
+Computer vision, sensors, prediction, and decision-making for safer and more intelligent transportation systems.
+
+**Future direction:** Vehicle perception and assistance.
+
+</td>
+<td width="33%" valign="top">
+
+### ❤️ Medical AI
+
+Using data and deep learning to support disease-risk analysis, medical-image understanding, and clinical decision support.
+
+**Future direction:** Heart-disease analysis projects.
+
+</td>
+<td width="33%" valign="top">
+
+### 🧠 Intelligent Assistants
+
+NLP, LLMs, and generative AI systems that understand requests, retrieve knowledge, and provide useful responses.
+
+**Future direction:** Arabic and domain-specific assistants.
+
+</td>
+</tr>
+</table>
+
+> Future projects will be published with clear documentation, datasets, notebooks, results, limitations, and lessons learned.
+
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+
+## 06. GitHub Analytics
+
+<div align="center">
+
+<img src="./assets/github-presence.svg" width="100%" alt="Animated GitHub presence dashboard" />
+
+<br/>
+
+<a href="https://github.com/thismieo?tab=repositories">
+  <img src="https://img.shields.io/badge/Repositories-Explore-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="Explore repositories" />
+</a>
+<a href="https://github.com/thismieo?tab=overview">
+  <img src="https://img.shields.io/badge/Contributions-View-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="View contributions" />
+</a>
+<a href="https://github.com/thismieo?tab=stars">
+  <img src="https://img.shields.io/badge/Starred%20Work-Open-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="View starred repositories" />
+</a>
+
+</div>
+
+> The dashboard uses stable GitHub destinations and presents repositories, contributions, and activity as parts of one public engineering journey.
+
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+
+## 07. Goals
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 🐍 Strong Foundations
+
+Master Python, algorithms, clean code, and problem-solving.
+
+**Status:** 🔄 Active
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 📊 Data Skills
+
+Learn NumPy, Pandas, visualization, preprocessing, and analysis.
+
+**Status:** ⏳ Next
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🤖 Machine Learning
+
+Understand models, evaluation, feature engineering, and real use cases.
+
+**Status:** ⏳ Planned
+
+</td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 🧠 Advanced AI
+
+Study Deep Learning, Computer Vision, NLP, LLMs, and Generative AI.
+
+**Status:** ⏳ Planned
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🚀 Project Portfolio
+
+Build and document more than ten practical AI projects.
+
+**Status:** ⏳ Building path
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🌍 Professional Growth
+
+Contribute to open source and develop a credible AI engineering portfolio.
+
+**Status:** 🔄 Continuous
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+
+## 08. Journey
+
+- **Started:** June 4, 2026
+- **Current phase:** Programming and AI foundations
+- **Approach:** Learn → Practice → Build → Document → Improve
+
+> *Every expert started somewhere. Progress begins when consistency becomes a habit.*
+
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+
+## 09. Connect With Me
+
+<div align="center">
+
+<img src="./assets/connect-network.svg" width="100%" alt="Animated contact and social network" />
+
+<br/>
+
+<a href="mailto:thismieo@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-Public%20Email-1E293B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1020" alt="Public Gmail" />
+</a>
+<a href="mailto:thismieo@outlook.com">
+  <img src="https://img.shields.io/badge/Outlook-Personal%20Email-1E293B?style=for-the-badge&logo=microsoftoutlook&logoColor=white&labelColor=0B1020" alt="Personal Outlook" />
+</a>
+<a href="https://www.kaggle.com/thismieo">
+  <img src="https://img.shields.io/badge/Kaggle-thismieo-1E293B?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0B1020" alt="Kaggle profile" />
+</a>
+<a href="https://www.instagram.com/thismieo/">
+  <img src="https://img.shields.io/badge/Instagram-%40thismieo-1E293B?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0B1020" alt="Instagram profile" />
+</a>
+<a href="https://github.com/thismieo">
+  <img src="https://img.shields.io/badge/GitHub-Follow%20the%20Journey-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="GitHub profile" />
+</a>
+
+</div>
+
+> **Open to learning, collaboration, and building meaningful AI projects.**
+
+<br/>
+
+<img src="./assets/footer.svg" width="100%" alt="Thanks for visiting my profile" />
