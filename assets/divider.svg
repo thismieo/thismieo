@@ -1,19 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" role="img" aria-label="Animated neural divider">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 74" role="img" aria-label="Animated neural divider">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
       <stop offset="20%" stop-color="#8b5cf6"/>
-      <stop offset="50%" stop-color="#38bdf8"/>
-      <stop offset="80%" stop-color="#9f3f66"/>
-      <stop offset="100%" stop-color="#9f3f66" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="80%" stop-color="#a63b62"/>
+      <stop offset="100%" stop-color="#a63b62" stop-opacity="0"/>
     </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <path d="M80 35 C280 15 360 55 520 35 S760 15 920 35 S1080 55 1120 35" fill="none" stroke="url(#g)" stroke-width="2" filter="url(#glow)"/>
-  <g fill="#dcd6ff" filter="url(#glow)">
-    <circle cx="300" cy="28" r="5"/><circle cx="600" cy="35" r="6"/><circle cx="900" cy="42" r="5"/>
+
+  <path d="M70 37 C250 13 360 61 520 37 S780 13 940 37 S1080 61 1130 37"
+        fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round"
+        stroke-dasharray="10 11" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-210" dur="12s" repeatCount="indefinite"/>
+  </path>
+
+  <g fill="#e8e1ff" filter="url(#glow)">
+    <circle cx="300" cy="30" r="5"><animate attributeName="r" values="4;7;4" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="37" r="6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="44" r="5"><animate attributeName="r" values="4;7;4" dur="3.5s" repeatCount="indefinite"/></circle>
   </g>
 </svg>
