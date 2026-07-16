@@ -4,14 +4,29 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=thismieo&label=PROFILE%20VIEWS&color=6d28d9&style=for-the-badge" alt="Profile views" />
-<img src="https://img.shields.io/badge/STATUS-BUILDING%20IN%20PUBLIC-0ea5e9?style=for-the-badge" alt="Building in public" />
-<img src="https://img.shields.io/badge/VERSION-1.0-8b1e3f?style=for-the-badge" alt="Profile version" />
+<a href="https://github.com/thismieo">
+  <img src="https://img.shields.io/badge/GitHub-thismieo-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+</a>
+<a href="mailto:thismieo@gmail.com">
+  <img src="https://img.shields.io/badge/Public%20Email-Gmail-8B1E3F?style=for-the-badge&logo=gmail&logoColor=white" alt="Public email" />
+</a>
+<a href="mailto:thismieo@outlook.com">
+  <img src="https://img.shields.io/badge/Personal%20Email-Outlook-0EA5E9?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Personal email" />
+</a>
+<a href="https://www.kaggle.com/thismieo">
+  <img src="https://img.shields.io/badge/Kaggle-thismieo-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle profile" />
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=thismieo&label=PROFILE%20VIEWS&color=6d28d9&style=flat-square" alt="Profile views" />
+<img src="https://img.shields.io/badge/STATUS-BUILDING%20IN%20PUBLIC-0ea5e9?style=flat-square" alt="Building in public" />
+<img src="https://img.shields.io/badge/VERSION-1.0-8b1e3f?style=flat-square" alt="Profile version" />
 
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&duration=3200&pause=900&color=8B5CF6&center=true&vCenter=true&width=900&lines=%3E%3E%3E+learning+%3D+True;%3E%3E%3E+building_projects+%3D+True;%3E%3E%3E+consistency+%2B%3D+1;%3E%3E%3E+future+%3D+%22AI+Engineer%22" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=8B5CF6&center=true&vCenter=true&width=950&lines=%3E%3E%3E+learning+%3D+True;%3E%3E%3E+building_projects+%3D+True;%3E%3E%3E+consistency+%2B%3D+1;%3E%3E%3E+future+%3D+%22AI+Engineer%22" alt="Typing animation" />
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
@@ -27,7 +42,7 @@
 - **Name:** Mohammed Muayad
 - **Role:** AI Engineering Student
 - **Location:** Baghdad, Iraq
-- **Mission:** Build strong foundations in programming and artificial intelligence through consistent learning and practical projects.
+- **Mission:** Build strong foundations in programming and artificial intelligence through consistent learning, practical projects, and public documentation.
 
 </td>
 <td width="50%" valign="top">
@@ -47,11 +62,11 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Python-8B5CF6?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Artificial%20Intelligence-0EA5E9?style=flat-square" />
-<img src="https://img.shields.io/badge/Problem%20Solving-8B1E3F?style=flat-square" />
-<img src="https://img.shields.io/badge/Git%20%26%20GitHub-8B5CF6?style=flat-square&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Learning%20in%20Public-0EA5E9?style=flat-square" />
+<img src="https://img.shields.io/badge/Python-8B5CF6?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Artificial%20Intelligence-0EA5E9?style=flat-square" alt="Artificial Intelligence" />
+<img src="https://img.shields.io/badge/Problem%20Solving-8B1E3F?style=flat-square" alt="Problem Solving" />
+<img src="https://img.shields.io/badge/Git%20%26%20GitHub-8B5CF6?style=flat-square&logo=github&logoColor=white" alt="Git and GitHub" />
+<img src="https://img.shields.io/badge/Learning%20in%20Public-0EA5E9?style=flat-square" alt="Learning in Public" />
 
 </div>
 
@@ -65,88 +80,158 @@ I use this GitHub profile to document my progress, publish future projects, and 
 
 > **Vision:** *The work should speak before I do.*
 
+### 🌍 Artificial Intelligence & the Future
+
+Artificial intelligence helps transform data into decisions, automate repetitive work, improve healthcare, support safer transportation, enhance public services, and create tools that solve complex problems at scale.
+
+My long-term path includes **Data Analysis, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Robotics, Large Language Models, and Generative AI**. Each area contributes a different capability, but together they form the foundation of modern intelligent systems.
+
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ## 03. Progress Status
 
 <div align="center">
 
-| Status | Area | Current Stage |
-|:---:|---|---|
-| 🔄 | **Currently Learning** | Python Fundamentals · Algorithms · Problem Solving |
-| ✅ | **Foundation Built** | Development Environment · GitHub Profile · Git Basics |
-| ⏳ | **Next Target** | NumPy · Pandas · Data Analysis |
+<img src="./assets/progress-status.svg" width="100%" alt="Animated progress dashboard" />
+
+<br/>
+
+<img src="./assets/learning-roadmap.svg" width="100%" alt="Animated AI learning roadmap" />
 
 </div>
 
-### Learning Roadmap
+### 📚 Learning Domains
 
-| Stage | Track | Status |
-|:---:|---|:---:|
-| 01 | 🐍 Python Fundamentals | 🔄 In Progress |
-| 02 | 📊 Data Analysis | ⏳ Next |
-| 03 | 🧹 Data Preprocessing | ⏳ Planned |
-| 04 | 🤖 Machine Learning | ⏳ Planned |
-| 05 | 🧠 Deep Learning | ⏳ Planned |
-| 06 | 💬 Natural Language Processing | ⏳ Planned |
-| 07 | 🚀 Large Language Models | ⏳ Planned |
-| 08 | ✨ Generative AI | ⏳ Planned |
+| Domain | What It Builds |
+|---|---|
+| **🐍 Python Fundamentals** | The programming foundation for writing logic, functions, loops, data structures, and clean reusable code. |
+| **📊 Data Analysis** | The ability to inspect, organize, visualize, and understand data before building intelligent models. |
+| **🧹 Data Preprocessing** | The process of cleaning data, handling missing values, encoding categories, and preparing reliable model inputs. |
+| **🤖 Machine Learning** | Algorithms that learn patterns from data to classify, predict, recommend, or detect unusual behavior. |
+| **🧠 Deep Learning** | Neural networks capable of learning complex patterns in images, language, audio, and large datasets. |
+| **👁️ Computer Vision** | Systems that understand images and video for detection, recognition, tracking, and visual automation. |
+| **💬 NLP** | Techniques that allow machines to understand, process, and generate human language. |
+| **🚀 LLMs & Generative AI** | Advanced models that generate text, code, images, and intelligent responses from learned knowledge. |
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ## 04. Tech Stack
 
-### Languages, Tools & Environment
+### Current Languages, Tools & Environment
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,vscode,git,github,windows&perline=5" alt="Current tech stack" />
-</p>
+<div align="center">
+
+<a href="https://www.python.org/">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+</a>
+<a href="https://code.visualstudio.com/">
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code" />
+</a>
+<a href="https://git-scm.com/">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</a>
+<a href="https://github.com/">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="https://www.microsoft.com/windows">
+  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
+</a>
+
+</div>
 
 ### Next Technologies
 
-<p align="center">
-  <img src="https://img.shields.io/badge/NumPy-Planned-8B5CF6?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-Planned-0EA5E9?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-Planned-8B1E3F?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-</p>
+<div align="center">
+
+<a href="https://numpy.org/">
+  <img src="https://img.shields.io/badge/NumPy-Next-4D77CF?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+</a>
+<a href="https://pandas.pydata.org/">
+  <img src="https://img.shields.io/badge/Pandas-Next-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+</a>
+<a href="https://jupyter.org/">
+  <img src="https://img.shields.io/badge/Jupyter-Next-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+</a>
+<a href="https://scikit-learn.org/">
+  <img src="https://img.shields.io/badge/Scikit--Learn-Planned-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn" />
+</a>
+<a href="https://pytorch.org/">
+  <img src="https://img.shields.io/badge/PyTorch-Planned-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+</a>
+<a href="https://www.tensorflow.org/">
+  <img src="https://img.shields.io/badge/TensorFlow-Planned-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+</a>
+
+</div>
+
+> Every icon above is connected to its official website or documentation.
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
-## 05. Featured Projects
+## 05. Featured AI Focus Areas
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 🍎 Fruit Classifier
+### 👁️ Computer Vision
 
-An image-classification model designed to identify fruit categories such as apples, bananas, and oranges.
+Image classification, object detection, visual recognition, and intelligent systems that understand images and video.
 
-**Status:** ⏳ Planned
-
-</td>
-<td width="33%" valign="top">
-
-### 🚗 Vehicle Classifier
-
-A computer-vision project for distinguishing cars, trucks, and motorcycles from images.
-
-**Status:** ⏳ Planned
+**Future direction:** Smart visual analysis projects.
 
 </td>
 <td width="33%" valign="top">
 
-### 💳 Fraud Detection
+### 🤖 Robotics Programming
 
-A machine-learning project for identifying suspicious or potentially fraudulent financial transactions.
+Combining software, sensors, decision-making, and automation to create machines that interact with the real world.
 
-**Status:** ⏳ Planned
+**Future direction:** Intelligent robotic control.
+
+</td>
+<td width="33%" valign="top">
+
+### 🏛️ Government Systems
+
+AI systems that can improve digital services, document processing, public-data analysis, and operational efficiency.
+
+**Future direction:** Responsible public-sector automation.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 🚘 Autonomous Systems
+
+Computer vision, sensors, prediction, and decision-making for safer and more intelligent transportation systems.
+
+**Future direction:** Vehicle perception and assistance.
+
+</td>
+<td width="33%" valign="top">
+
+### ❤️ Medical AI
+
+Using data and deep learning to support disease-risk analysis, medical-image understanding, and clinical decision support.
+
+**Future direction:** Heart-disease analysis projects.
+
+</td>
+<td width="33%" valign="top">
+
+### 🧠 Intelligent Assistants
+
+NLP, LLMs, and generative AI systems that understand requests, retrieve knowledge, and provide useful responses.
+
+**Future direction:** Arabic and domain-specific assistants.
 
 </td>
 </tr>
 </table>
 
-> Projects will be published with clear documentation, datasets, notebooks, results, and lessons learned.
+> Future projects will be published with clear documentation, datasets, notebooks, results, limitations, and lessons learned.
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
@@ -154,27 +239,96 @@ A machine-learning project for identifying suspicious or potentially fraudulent 
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=thismieo&show_icons=true&hide_border=true&bg_color=0d1117&title_color=8b5cf6&icon_color=38bdf8&text_color=c9d1d9" alt="GitHub stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=thismieo&hide_border=true&background=0D1117&ring=8B5CF6&fire=38BDF8&currStreakLabel=8B5CF6&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub streak" />
+<a href="https://github.com/thismieo?tab=repositories">
+  <img src="https://img.shields.io/badge/Explore-Repositories-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
+</a>
+<a href="https://github.com/thismieo?tab=overview">
+  <img src="https://img.shields.io/badge/View-Contributions-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Contributions" />
+</a>
+<a href="https://github.com/thismieo?tab=stars">
+  <img src="https://img.shields.io/badge/Saved-Starred%20Work-8B1E3F?style=for-the-badge&logo=github&logoColor=white" alt="Starred repositories" />
+</a>
 
-<br/>
+<br/><br/>
 
-<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=thismieo&bg_color=0d1117&color=c9d1d9&line=8b5cf6&point=38bdf8&area=true&hide_border=true" alt="Contribution graph" />
+| Signal | Purpose |
+|:---:|---|
+| **Repositories** | Projects, experiments, documentation, and future AI implementations. |
+| **Contributions** | A visible record of consistent learning, commits, and project development. |
+| **Activity** | Public progress that shows how knowledge is converted into practical work. |
 
 </div>
+
+> This section intentionally uses stable GitHub links instead of unreliable external images, preventing broken analytics cards.
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ## 07. Goals
 
-- [ ] Complete Python Fundamentals
-- [ ] Build strong problem-solving and algorithm skills
-- [ ] Learn NumPy, Pandas, and Data Analysis
-- [ ] Master Machine Learning fundamentals
-- [ ] Study Deep Learning, NLP, LLMs, and Generative AI
-- [ ] Build and document 10+ practical AI projects
-- [ ] Contribute to open-source projects
-- [ ] Develop a professional AI portfolio
+<div align="center">
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 🐍 Strong Foundations
+
+Master Python, algorithms, clean code, and problem-solving.
+
+**Status:** 🔄 Active
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 📊 Data Skills
+
+Learn NumPy, Pandas, visualization, preprocessing, and analysis.
+
+**Status:** ⏳ Next
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🤖 Machine Learning
+
+Understand models, evaluation, feature engineering, and real use cases.
+
+**Status:** ⏳ Planned
+
+</td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 🧠 Advanced AI
+
+Study Deep Learning, Computer Vision, NLP, LLMs, and Generative AI.
+
+**Status:** ⏳ Planned
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🚀 Project Portfolio
+
+Build and document more than ten practical AI projects.
+
+**Status:** ⏳ Building path
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🌍 Professional Growth
+
+Contribute to open source and develop a credible AI engineering portfolio.
+
+**Status:** 🔄 Continuous
+
+</td>
+</tr>
+</table>
+
+</div>
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
@@ -192,11 +346,46 @@ A machine-learning project for identifying suspicious or potentially fraudulent 
 
 <div align="center">
 
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 📧 Public Email
+
+For professional communication, learning opportunities, and collaboration.
+
 <a href="mailto:thismieo@gmail.com">
-  <img src="https://img.shields.io/badge/Email-thismieo%40gmail.com-8B1E3F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <img src="https://img.shields.io/badge/thismieo%40gmail.com-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Public Gmail" />
 </a>
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 💼 Personal Email
+
+For direct and personal communication.
+
+<a href="mailto:thismieo@outlook.com">
+  <img src="https://img.shields.io/badge/thismieo%40outlook.com-Contact-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Personal Outlook" />
+</a>
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 📊 Kaggle
+
+For future datasets, notebooks, competitions, and data-science work.
+
+<a href="https://www.kaggle.com/thismieo">
+  <img src="https://img.shields.io/badge/Kaggle-thismieo-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle profile" />
+</a>
+
+</td>
+</tr>
+</table>
+
 <a href="https://github.com/thismieo">
-  <img src="https://img.shields.io/badge/GitHub-thismieo-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-Follow%20the%20Journey-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
 </a>
 
 <br/><br/>
@@ -205,14 +394,6 @@ A machine-learning project for identifying suspicious or potentially fraudulent 
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+<br/>
 
-<div align="center">
-
-### Learn. Build. Improve. Repeat.
-
-*Building Intelligent Systems, One Commit at a Time.*
-
-**Mohammed Muayad · AI Engineering Journey · Version 1.0**
-
-</div>
+<img src="./assets/footer.svg" width="100%" alt="Thanks for visiting my profile" />
