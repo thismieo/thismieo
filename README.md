@@ -384,6 +384,16 @@ For future datasets, notebooks, competitions, and data-science work.
 </tr>
 </table>
 
+### 📸 Instagram
+
+Personal updates, visual moments, and selected highlights from the journey.
+
+<a href="https://www.instagram.com/thismieo/">
+  <img src="https://img.shields.io/badge/Instagram-%40thismieo-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram profile" />
+</a>
+
+<br/><br/>
+
 <a href="https://github.com/thismieo">
   <img src="https://img.shields.io/badge/GitHub-Follow%20the%20Journey-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
 </a>
