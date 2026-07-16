@@ -5,29 +5,26 @@
 <br/>
 
 <a href="https://github.com/thismieo">
-  <img src="https://img.shields.io/badge/GitHub-thismieo-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+  <img src="https://img.shields.io/badge/GitHub-thismieo-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="GitHub profile" />
 </a>
 <a href="mailto:thismieo@gmail.com">
-  <img src="https://img.shields.io/badge/Public%20Email-Gmail-8B1E3F?style=for-the-badge&logo=gmail&logoColor=white" alt="Public email" />
+  <img src="https://img.shields.io/badge/Gmail-Public%20Email-1E293B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1020" alt="Public email" />
 </a>
 <a href="mailto:thismieo@outlook.com">
-  <img src="https://img.shields.io/badge/Personal%20Email-Outlook-0EA5E9?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Personal email" />
+  <img src="https://img.shields.io/badge/Outlook-Personal%20Email-1E293B?style=for-the-badge&logo=microsoftoutlook&logoColor=white&labelColor=0B1020" alt="Personal email" />
 </a>
 <a href="https://www.kaggle.com/thismieo">
-  <img src="https://img.shields.io/badge/Kaggle-thismieo-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle profile" />
+  <img src="https://img.shields.io/badge/Kaggle-thismieo-1E293B?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0B1020" alt="Kaggle profile" />
 </a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=thismieo&label=PROFILE%20VIEWS&color=6d28d9&style=flat-square" alt="Profile views" />
-<img src="https://img.shields.io/badge/STATUS-BUILDING%20IN%20PUBLIC-0ea5e9?style=flat-square" alt="Building in public" />
-<img src="https://img.shields.io/badge/VERSION-1.0-8b1e3f?style=flat-square" alt="Profile version" />
+<a href="https://www.instagram.com/thismieo/">
+  <img src="https://img.shields.io/badge/Instagram-%40thismieo-1E293B?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0B1020" alt="Instagram profile" />
+</a>
 
 </div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=8B5CF6&center=true&vCenter=true&width=950&lines=%3E%3E%3E+learning+%3D+True;%3E%3E%3E+building_projects+%3D+True;%3E%3E%3E+consistency+%2B%3D+1;%3E%3E%3E+future+%3D+%22AI+Engineer%22" alt="Typing animation" />
-</p>
+<br/>
+
+<img src="./assets/intro-status.svg" width="100%" alt="Current AI engineering journey status" />
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
