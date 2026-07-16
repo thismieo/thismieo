@@ -1,74 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
   <title id="title">Mohammed Muayad — AI Engineering Student</title>
-  <desc id="desc">Dark luxury AI banner with animated neural network lines, purple and blue glows, and maroon accents.</desc>
+  <desc id="desc">Animated dark AI banner with neural connections, aurora glows, and flowing waves.</desc>
+
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#08050f"/>
-      <stop offset="42%" stop-color="#21113b"/>
-      <stop offset="72%" stop-color="#0b3159"/>
-      <stop offset="100%" stop-color="#341224"/>
+      <stop offset="0%" stop-color="#07040f"/>
+      <stop offset="34%" stop-color="#17102c"/>
+      <stop offset="68%" stop-color="#082b4d"/>
+      <stop offset="100%" stop-color="#3a1028"/>
     </linearGradient>
-    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#8b5cf6"/>
-      <stop offset="50%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#9f3f66"/>
+      <stop offset="48%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a63b62"/>
     </linearGradient>
-    <radialGradient id="purpleGlow" cx="50%" cy="45%" r="50%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.75"/>
+
+    <linearGradient id="waveA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="waveB" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a63b62" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="purpleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.78"/>
       <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="blueGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+
+    <radialGradient id="cyanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
-      <path d="M 52 0 L 0 0 0 52" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.032" stroke-width="1"/>
     </pattern>
+
     <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="24"/>
+      <feGaussianBlur stdDeviation="30"/>
     </filter>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <rect width="1600" height="520" rx="28" fill="url(#bg)"/>
-  <rect width="1600" height="520" rx="28" fill="url(#grid)"/>
+  <rect width="1600" height="520" rx="30" fill="url(#bg)"/>
+  <rect width="1600" height="520" rx="30" fill="url(#grid)"/>
 
-  <ellipse cx="640" cy="195" rx="410" ry="160" fill="url(#purpleGlow)" filter="url(#blur)">
-    <animate attributeName="rx" values="380;430;380" dur="9s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="1030" cy="330" rx="360" ry="140" fill="url(#blueGlow)" filter="url(#blur)">
-    <animate attributeName="cy" values="315;345;315" dur="8s" repeatCount="indefinite"/>
+  <ellipse cx="500" cy="165" rx="470" ry="195" fill="url(#purpleGlow)" filter="url(#blur)">
+    <animate attributeName="cx" values="440;560;440" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="430;500;430" dur="10s" repeatCount="indefinite"/>
   </ellipse>
 
-  <g opacity="0.62" fill="none" stroke="url(#beam)" filter="url(#glow)">
-    <path d="M110 140 C260 40 360 80 500 170 S760 280 900 150 S1180 40 1490 180" stroke-width="2.2"/>
-    <path d="M70 330 C250 220 410 245 560 340 S830 455 1010 300 S1280 180 1540 340" stroke-width="1.8"/>
-    <path d="M260 455 C430 345 580 370 735 450 S1030 505 1200 400 S1420 335 1560 410" stroke-width="1.4" opacity="0.75"/>
+  <ellipse cx="1120" cy="280" rx="410" ry="180" fill="url(#cyanGlow)" filter="url(#blur)">
+    <animate attributeName="cy" values="250;315;250" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g fill="none" stroke="url(#neon)" stroke-linecap="round" filter="url(#glow)" opacity="0.68">
+    <path d="M80 130 C230 35 350 65 485 150 S745 270 900 145 S1175 40 1510 165" stroke-width="2.1" stroke-dasharray="10 12">
+      <animate attributeName="stroke-dashoffset" values="0;-220" dur="16s" repeatCount="indefinite"/>
+    </path>
+    <path d="M50 325 C230 220 390 235 560 335 S850 455 1030 300 S1310 185 1560 345" stroke-width="1.8" stroke-dasharray="7 13">
+      <animate attributeName="stroke-dashoffset" values="0;240" dur="18s" repeatCount="indefinite"/>
+    </path>
+    <path d="M210 430 C380 345 560 360 720 432 S1020 500 1205 392 S1430 330 1580 405" stroke-width="1.4" stroke-dasharray="6 14" opacity="0.75">
+      <animate attributeName="stroke-dashoffset" values="0;-180" dur="20s" repeatCount="indefinite"/>
+    </path>
   </g>
 
-  <g fill="#e8ddff" filter="url(#glow)">
-    <circle cx="110" cy="140" r="6"/><circle cx="500" cy="170" r="6"/><circle cx="900" cy="150" r="6"/><circle cx="1490" cy="180" r="6"/>
-    <circle cx="70" cy="330" r="6"/><circle cx="560" cy="340" r="6"/><circle cx="1010" cy="300" r="6"/><circle cx="1540" cy="340" r="6"/>
-    <circle cx="260" cy="455" r="6"/><circle cx="735" cy="450" r="6"/><circle cx="1200" cy="400" r="6"/><circle cx="1560" cy="410" r="6"/>
+  <g fill="#e9e1ff" filter="url(#glow)">
+    <circle cx="80" cy="130" r="5"><animate attributeName="r" values="4;8;4" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="485" cy="150" r="6"><animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="145" r="6"><animate attributeName="r" values="5;9;5" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="1510" cy="165" r="5"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="50" cy="325" r="5"><animate attributeName="r" values="4;7;4" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="335" r="6"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="300" r="6"><animate attributeName="r" values="5;9;5" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1560" cy="345" r="5"><animate attributeName="opacity" values="0.35;1;0.35" dur="4.1s" repeatCount="indefinite"/></circle>
   </g>
 
   <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
-    <text x="800" y="185" font-size="64" font-weight="750" fill="#ffffff">Mohammed Muayad</text>
-    <text x="800" y="238" font-size="28" font-weight="600" fill="#d9d9ff">AI Engineering Student</text>
-    <text x="800" y="302" font-size="29" font-weight="500" fill="#ffffff">Building Intelligent Systems, One Commit at a Time.</text>
+    <text x="800" y="208" font-size="70" font-weight="750" fill="#ffffff" letter-spacing="1">Mohammed Muayad</text>
+    <text x="800" y="266" font-size="30" font-weight="600" fill="#dcd9ff" letter-spacing="2">AI Engineering Student</text>
+    <rect x="498" y="300" width="604" height="1.8" fill="url(#neon)" opacity="0.9">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="800" y="352" font-size="28" font-weight="500" fill="#f8fafc">Building the Future with Code &amp; Intelligence</text>
   </g>
 
-  <g font-family="Consolas, JetBrains Mono, monospace" font-size="19" fill="#8ed8ff" text-anchor="middle">
-    <text x="800" y="370">&gt;&gt;&gt; learning = True</text>
-    <text x="800" y="402">&gt;&gt;&gt; building_projects = True</text>
-    <text x="800" y="434">&gt;&gt;&gt; future = &quot;AI Engineer&quot;</text>
-  </g>
+  <path d="M0 430 C250 375 430 500 690 445 S1110 365 1600 455 V520 H0 Z" fill="url(#waveA)" opacity="0.72">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0 430 C250 375 430 500 690 445 S1110 365 1600 455 V520 H0 Z;
+              M0 455 C260 505 460 380 710 450 S1130 505 1600 420 V520 H0 Z;
+              M0 430 C250 375 430 500 690 445 S1110 365 1600 455 V520 H0 Z"/>
+  </path>
 
-  <rect x="270" y="474" width="1060" height="2" fill="url(#beam)" opacity="0.75">
-    <animate attributeName="opacity" values="0.35;1;0.35" dur="3s" repeatCount="indefinite"/>
-  </rect>
+  <path d="M0 470 C285 420 500 510 770 468 S1260 410 1600 475 V520 H0 Z" fill="url(#waveB)" opacity="0.58">
+    <animate attributeName="d" dur="13s" repeatCount="indefinite"
+      values="M0 470 C285 420 500 510 770 468 S1260 410 1600 475 V520 H0 Z;
+              M0 450 C320 505 530 420 820 470 S1270 515 1600 450 V520 H0 Z;
+              M0 470 C285 420 500 510 770 468 S1260 410 1600 475 V520 H0 Z"/>
+  </path>
 </svg>
