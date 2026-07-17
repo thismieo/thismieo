@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Mohammed Muayad — AI Engineering Student</title>
+  <desc id="desc">Dark engineering profile banner with neural signal lines, cyan and maroon light, and professional identity text.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020611"/>
+      <stop offset="0.48" stop-color="#050914"/>
+      <stop offset="1" stop-color="#071226"/>
+    </linearGradient>
+    <radialGradient id="maroon">
+      <stop offset="0" stop-color="#9f274e" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#9f274e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyan">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9f274e"/>
+      <stop offset="0.52" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#ffffff" stroke-opacity="0.025"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="520" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="520" rx="28" fill="url(#grid)"/>
+  <ellipse cx="90" cy="255" rx="520" ry="360" fill="url(#maroon)"/>
+  <ellipse cx="1510" cy="250" rx="540" ry="360" fill="url(#cyan)"/>
+  <rect x="1.5" y="1.5" width="1597" height="517" rx="26.5" fill="none" stroke="url(#signal)" stroke-opacity="0.45" stroke-width="3"/>
+
+  <g fill="none" stroke="url(#signal)" stroke-linecap="round">
+    <path id="route-a" d="M-40 132C150 36 280 190 466 116S760 54 936 140s344 82 704-30" opacity="0.42"/>
+    <path id="route-b" d="M-30 378C160 292 330 446 520 360s326-82 502-6 330 70 620-28" opacity="0.34"/>
+    <path d="M142 88C208 166 220 250 176 402M394 112C454 194 466 290 430 404M1194 92C1136 186 1132 286 1180 406M1430 104C1366 190 1356 288 1398 408" opacity="0.22"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle r="4.5" fill="#fb7185"><animateMotion dur="10s" repeatCount="indefinite"><mpath href="#route-a"/></animateMotion></circle>
+    <circle r="4.5" fill="#67e8f9"><animateMotion dur="12s" begin="-5s" repeatCount="indefinite"><mpath href="#route-b"/></animateMotion></circle>
+    <g fill="#ffffff">
+      <circle cx="142" cy="88" r="3.5"/><circle cx="394" cy="112" r="3.5"/><circle cx="1194" cy="92" r="3.5"/><circle cx="1430" cy="104" r="3.5"/>
+    </g>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="86" y="82" fill="#67e8f9" font-size="15" font-weight="700" letter-spacing="3">ENGINEERING SIGNAL // PROFILE 2026</text>
+    <text x="800" y="226" text-anchor="middle" fill="#ffffff" font-size="76" font-weight="760" letter-spacing="0.5">Mohammed Muayad</text>
+    <text x="800" y="286" text-anchor="middle" fill="#dbeafe" font-size="29" font-weight="650" letter-spacing="5">AI ENGINEERING STUDENT</text>
+    <rect x="505" y="322" width="590" height="2" rx="1" fill="url(#signal)" opacity="0.85"/>
+    <text x="800" y="370" text-anchor="middle" fill="#cbd5e1" font-size="21" font-weight="500">Baghdad, Iraq · Learning in Public · Building Intelligent Foundations</text>
+    <text x="800" y="438" text-anchor="middle" fill="#7f8da6" font-family="Consolas, JetBrains Mono, monospace" font-size="16" letter-spacing="2">FOUNDATIONS  →  DATA  →  MACHINE LEARNING  →  INTELLIGENT SYSTEMS</text>
+  </g>
+
+  <g transform="translate(1312 54)" font-family="Segoe UI, Inter, Arial, sans-serif">
+    <rect width="204" height="40" rx="20" fill="#071522" stroke="#67e8f9" stroke-opacity="0.32"/>
+    <circle cx="24" cy="20" r="5.5" fill="#34d399" filter="url(#glow)"><animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite"/></circle>
+    <text x="43" y="25" fill="#d9f7f1" font-size="12" font-weight="700" letter-spacing="1.5">JOURNEY ACTIVE</text>
+  </g>
+</svg>
