@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 260" role="img" aria-labelledby="title desc">
+  <title id="title">Current Engineering Status</title>
+  <desc id="desc">A compact dashboard showing current study, building focus, development workflow, and next learning target.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#040711"/>
+      <stop offset="0.55" stop-color="#07101f"/>
+      <stop offset="1" stop-color="#0b101c"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9f274e"/>
+      <stop offset="0.5" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="1597" height="257" rx="24" fill="url(#bg)" stroke="url(#line)" stroke-opacity="0.5" stroke-width="3"/>
+  <rect x="38" y="32" width="1524" height="178" rx="18" fill="#ffffff" fill-opacity="0.018" stroke="#ffffff" stroke-opacity="0.07"/>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="66" y="28" fill="#8290a8" font-size="12" font-weight="700" letter-spacing="2.4">CURRENT ENGINEERING STATUS</text>
+
+    <g transform="translate(74 62)">
+      <circle cx="8" cy="9" r="5.5" fill="#34d399" filter="url(#glow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/></circle>
+      <text x="28" y="14" fill="#86efac" font-size="12" font-weight="750" letter-spacing="2">CURRENT</text>
+      <text x="0" y="58" fill="#ffffff" font-size="25" font-weight="700">Python Foundations</text>
+      <text x="0" y="87" fill="#94a3b8" font-size="14">Logic · Conditions · Loops · Algorithms</text>
+    </g>
+
+    <line x1="420" y1="61" x2="420" y2="181" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <g transform="translate(466 62)">
+      <circle cx="8" cy="9" r="5.5" fill="#fb7185" filter="url(#glow)"/>
+      <text x="28" y="14" fill="#fda4af" font-size="12" font-weight="750" letter-spacing="2">BUILDING</text>
+      <text x="0" y="58" fill="#ffffff" font-size="25" font-weight="700">Clean Problem Solving</text>
+      <text x="0" y="87" fill="#94a3b8" font-size="14">Understand → Practice → Refine</text>
+    </g>
+
+    <line x1="820" y1="61" x2="820" y2="181" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <g transform="translate(866 62)">
+      <circle cx="8" cy="9" r="5.5" fill="#c084fc" filter="url(#glow)"/>
+      <text x="28" y="14" fill="#d8b4fe" font-size="12" font-weight="750" letter-spacing="2">WORKFLOW</text>
+      <text x="0" y="58" fill="#ffffff" font-size="25" font-weight="700">VS Code · Git · GitHub</text>
+      <text x="0" y="87" fill="#94a3b8" font-size="14">Build · Review · Document · Improve</text>
+    </g>
+
+    <line x1="1214" y1="61" x2="1214" y2="181" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <g transform="translate(1260 62)">
+      <circle cx="8" cy="9" r="5.5" fill="#67e8f9" filter="url(#glow)"/>
+      <text x="28" y="14" fill="#a5f3fc" font-size="12" font-weight="750" letter-spacing="2">NEXT</text>
+      <text x="0" y="58" fill="#ffffff" font-size="25" font-weight="700">Data Analysis</text>
+      <text x="0" y="87" fill="#94a3b8" font-size="14">NumPy · Pandas · Visualization</text>
+    </g>
+
+    <text x="800" y="238" text-anchor="middle" fill="#7f8da6" font-family="Consolas, JetBrains Mono, monospace" font-size="15" letter-spacing="1.5">status: learning deliberately · shipping honestly · improving continuously</text>
+  </g>
+
+  <rect x="86" y="214" width="1428" height="2" rx="1" fill="#1e293b"/>
+  <rect x="86" y="214" width="250" height="2" rx="1" fill="url(#line)" filter="url(#glow)">
+    <animate attributeName="x" values="86;1264;86" dur="9s" repeatCount="indefinite"/>
+  </rect>
+</svg>

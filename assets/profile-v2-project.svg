@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">Featured Build — AI Engineering Portfolio</title>
+  <desc id="desc">Professional project showcase panel for Mohammed Muayad's responsive AI engineering portfolio.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030712"/>
+      <stop offset="0.55" stop-color="#07101f"/>
+      <stop offset="1" stop-color="#0b1323"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9f274e"/>
+      <stop offset="0.52" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="screenGlow">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity="0.022"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="500" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="500" rx="28" fill="url(#grid)"/>
+  <rect x="1.5" y="1.5" width="1597" height="497" rx="26.5" fill="none" stroke="url(#accent)" stroke-opacity="0.45" stroke-width="3"/>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="72" y="72" fill="#67e8f9" font-size="13" font-weight="750" letter-spacing="2.8">FEATURED BUILD // 01</text>
+    <text x="72" y="137" fill="#ffffff" font-size="48" font-weight="760">AI Engineering Portfolio</text>
+    <text x="72" y="179" fill="#b8c4d7" font-size="20">A complete public identity system for documenting learning,</text>
+    <text x="72" y="209" fill="#b8c4d7" font-size="20">technical growth, projects, and the path toward intelligent systems.</text>
+
+    <g transform="translate(72 260)">
+      <rect width="170" height="40" rx="20" fill="#071522" stroke="#67e8f9" stroke-opacity="0.32"/>
+      <circle cx="22" cy="20" r="5" fill="#34d399" filter="url(#glow)"/>
+      <text x="39" y="25" fill="#d9f7f1" font-size="12" font-weight="750" letter-spacing="1.4">LIVE PROJECT</text>
+    </g>
+
+    <g transform="translate(72 330)" fill="#cbd5e1" font-size="16">
+      <circle cx="6" cy="-5" r="4" fill="#67e8f9"/><text x="22" y="0">Responsive desktop and mobile experience</text>
+      <circle cx="6" cy="35" r="4" fill="#c084fc"/><text x="22" y="40">HTML · CSS · JavaScript · GitHub Pages</text>
+      <circle cx="6" cy="75" r="4" fill="#fb7185"/><text x="22" y="80">Accessibility, performance, and visual consistency</text>
+    </g>
+  </g>
+
+  <g transform="translate(875 58)">
+    <rect width="650" height="382" rx="24" fill="#020611" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="18" y="18" width="614" height="346" rx="18" fill="#050b18"/>
+    <ellipse cx="520" cy="120" rx="210" ry="180" fill="url(#screenGlow)"/>
+
+    <g transform="translate(42 42)" font-family="Segoe UI, Inter, Arial, sans-serif">
+      <rect width="566" height="42" rx="12" fill="#091120" stroke="#ffffff" stroke-opacity="0.08"/>
+      <circle cx="18" cy="21" r="4.5" fill="#fb7185"/>
+      <circle cx="35" cy="21" r="4.5" fill="#c084fc"/>
+      <circle cx="52" cy="21" r="4.5" fill="#67e8f9"/>
+      <text x="82" y="26" fill="#94a3b8" font-size="11" letter-spacing="1.5">thismieo.github.io</text>
+
+      <text x="0" y="118" fill="#67e8f9" font-size="11" font-weight="750" letter-spacing="2.2">PORTFOLIO / 2026</text>
+      <text x="0" y="169" fill="#ffffff" font-size="38" font-weight="760">Mohammed Muayad</text>
+      <text x="0" y="201" fill="#dbeafe" font-size="18" font-weight="650" letter-spacing="2">AI ENGINEERING STUDENT</text>
+      <rect x="0" y="226" width="330" height="2" fill="url(#accent)"/>
+      <text x="0" y="263" fill="#9caac0" font-size="14">Programming foundations → intelligent systems</text>
+
+      <g transform="translate(390 110)">
+        <circle cx="72" cy="72" r="68" fill="#071522" stroke="#67e8f9" stroke-opacity="0.32"/>
+        <circle cx="72" cy="72" r="43" fill="#0b1020" stroke="#9f274e" stroke-opacity="0.48"/>
+        <circle cx="72" cy="72" r="7" fill="#67e8f9" filter="url(#glow)">
+          <animate attributeName="r" values="5;9;5" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <path d="M72 4V140M4 72H140M24 24L120 120M120 24L24 120" stroke="url(#accent)" stroke-opacity="0.22"/>
+      </g>
+
+      <g transform="translate(0 298)">
+        <rect width="148" height="30" rx="15" fill="#071522" stroke="#67e8f9" stroke-opacity="0.24"/>
+        <text x="74" y="20" text-anchor="middle" fill="#a5f3fc" font-size="10" font-weight="700">RESPONSIVE</text>
+        <rect x="160" width="148" height="30" rx="15" fill="#11101d" stroke="#c084fc" stroke-opacity="0.24"/>
+        <text x="234" y="20" text-anchor="middle" fill="#d8b4fe" font-size="10" font-weight="700">ACCESSIBLE</text>
+        <rect x="320" width="148" height="30" rx="15" fill="#160c14" stroke="#fb7185" stroke-opacity="0.24"/>
+        <text x="394" y="20" text-anchor="middle" fill="#fda4af" font-size="10" font-weight="700">DOCUMENTED</text>
+      </g>
+    </g>
+  </g>
+</svg>

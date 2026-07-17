@@ -1,363 +1,170 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Mohammed Muayad — AI Engineering Student" />
+<img src="./assets/profile-v2-hero.svg" width="100%" alt="Mohammed Muayad — AI Engineering Student" />
 
 <br/>
 
-<a href="https://github.com/thismieo">
-  <img src="https://img.shields.io/badge/GitHub-thismieo-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="GitHub profile" />
+<a href="https://thismieo.github.io">
+  <img src="https://img.shields.io/badge/PORTFOLIO-Live%20Experience-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=07101F" alt="Open live portfolio" />
+</a>
+<a href="https://github.com/thismieo/thismieo.github.io">
+  <img src="https://img.shields.io/badge/SOURCE-Portfolio%20Repository-7C3AED?style=for-the-badge&logo=github&logoColor=white&labelColor=07101F" alt="Open portfolio source repository" />
 </a>
 <a href="mailto:thismieo@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Public%20Email-1E293B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1020" alt="Public email" />
-</a>
-<a href="mailto:thismieo@outlook.com">
-  <img src="https://img.shields.io/badge/Outlook-Personal%20Email-1E293B?style=for-the-badge&logo=microsoftoutlook&logoColor=white&labelColor=0B1020" alt="Personal email" />
+  <img src="https://img.shields.io/badge/EMAIL-Contact%20Me-9F274E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=07101F" alt="Email Mohammed Muayad" />
 </a>
 <a href="https://www.kaggle.com/thismieo">
-  <img src="https://img.shields.io/badge/Kaggle-thismieo-1E293B?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0B1020" alt="Kaggle profile" />
-</a>
-<a href="https://www.instagram.com/thismieo/">
-  <img src="https://img.shields.io/badge/Instagram-%40thismieo-1E293B?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0B1020" alt="Instagram profile" />
+  <img src="https://img.shields.io/badge/KAGGLE-thismieo-2563EB?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=07101F" alt="Open Kaggle profile" />
 </a>
 
 </div>
 
 <br/>
 
-<img src="./assets/intro-status.svg" width="100%" alt="Current AI engineering journey status" />
+<img src="./assets/profile-v2-status.svg" width="100%" alt="Current engineering status" />
 
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+---
 
-## 01. AI Identity
+## 01 / About
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I am **Mohammed Muayad**, an **AI Engineering Student** from Baghdad, Iraq. I am building a disciplined foundation in programming, algorithms, data, and intelligent systems—one verified skill at a time.
 
-### 👤 Profile
+My work is centered on understanding concepts correctly, converting learning into practical code, and documenting progress through GitHub. I value clear engineering, honest project status, and continuous improvement over collecting technologies without mastering them.
 
-- **Name:** Mohammed Muayad
-- **Role:** AI Engineering Student
-- **Location:** Baghdad, Iraq
-- **Mission:** Build strong foundations in programming and artificial intelligence through consistent learning, practical projects, and public documentation.
+> **A focused journey from programming foundations to intelligent systems.**
 
-</td>
-<td width="50%" valign="top">
+---
 
-### 🧠 Current Focus
+## 02 / Featured Work
 
-- Python fundamentals and clean programming practices
-- Algorithms and problem-solving
-- Git and GitHub workflow
-- Preparing for Data Analysis and Machine Learning
+<img src="./assets/profile-v2-project.svg" width="100%" alt="Featured AI Engineering Portfolio project" />
 
-</td>
-</tr>
-</table>
+### AI Engineering Portfolio
 
-> **I am building my skills from the ground up — one concept, one project, and one commit at a time. This profile documents that journey publicly.**
+A responsive portfolio system designed to present my identity, learning journey, technical direction, and future projects through one consistent engineering experience.
+
+**What it demonstrates**
+
+- Responsive implementation across desktop and mobile layouts
+- Semantic HTML, structured CSS, and modular JavaScript behavior
+- Accessibility-aware navigation, interactions, and portrait viewer
+- Performance cleanup, asset validation, and GitHub pull-request workflow
+- A unified visual language built around dark navy, cyan, maroon, and neural-system signals
 
 <div align="center">
 
-<img src="./assets/identity-icons.svg" width="62%" alt="Python, artificial intelligence, problem solving, Git and GitHub, and learning in public" />
-
-</div>
-
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
-
-## 02. About Me
-
-I am an **AI Engineering Student** focused on developing practical, long-term skills in programming, data, and intelligent systems. My current priority is mastering the fundamentals correctly before moving into advanced topics.
-
-I use this GitHub profile to document my progress, publish future projects, and demonstrate consistency. My goal is not to collect technologies without understanding them; it is to build a solid engineering foundation and turn what I learn into real work.
-
-> **Vision:** *The work should speak before I do.*
-
-### 🌍 Artificial Intelligence & the Future
-
-Artificial intelligence helps transform data into decisions, automate repetitive work, improve healthcare, support safer transportation, enhance public services, and create tools that solve complex problems at scale.
-
-My long-term path includes **Data Analysis, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Robotics, Large Language Models, and Generative AI**. Each area contributes a different capability, but together they form the foundation of modern intelligent systems.
-
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
-
-## 03. Progress Status
-
-<div align="center">
-
-<img src="./assets/progress-status.svg" width="100%" alt="Animated progress dashboard" />
-
-<br/>
-
-<img src="./assets/learning-roadmap.svg" width="100%" alt="Animated AI learning roadmap" />
-
-</div>
-
-### 📚 Learning Domains
-
-| Domain | What It Builds |
-|---|---|
-| **🐍 Python Fundamentals** | The programming foundation for writing logic, functions, loops, data structures, and clean reusable code. |
-| **📊 Data Analysis** | The ability to inspect, organize, visualize, and understand data before building intelligent models. |
-| **🧹 Data Preprocessing** | The process of cleaning data, handling missing values, encoding categories, and preparing reliable model inputs. |
-| **🤖 Machine Learning** | Algorithms that learn patterns from data to classify, predict, recommend, or detect unusual behavior. |
-| **🧠 Deep Learning** | Neural networks capable of learning complex patterns in images, language, audio, and large datasets. |
-| **👁️ Computer Vision** | Systems that understand images and video for detection, recognition, tracking, and visual automation. |
-| **💬 NLP** | Techniques that allow machines to understand, process, and generate human language. |
-| **🚀 LLMs & Generative AI** | Advanced models that generate text, code, images, and intelligent responses from learned knowledge. |
-
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
-
-## 04. Tech Stack
-
-<div align="center">
-
-<img src="./assets/tech-ecosystem.svg" width="100%" alt="Animated engineering stack architecture" />
-
-</div>
-
-### Engineering Layers
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-#### Foundation & Workflow · **Active**
-
-- [**Windows**](https://www.microsoft.com/windows) — Development environment
-- [**Visual Studio Code**](https://code.visualstudio.com/) — Editing and debugging workspace
-- [**Python**](https://www.python.org/) — Core programming and AI language
-- [**Git**](https://git-scm.com/) — Version control and change tracking
-- [**GitHub**](https://github.com/) — Projects, documentation, and collaboration
-
-</td>
-<td width="33%" valign="top">
-
-#### Data Layer · **Next**
-
-- [**NumPy**](https://numpy.org/) — Numerical arrays and computation
-- [**Pandas**](https://pandas.pydata.org/) — Data cleaning, analysis, and transformation
-- [**Jupyter**](https://jupyter.org/) — Interactive notebooks and experiments
-
-**Purpose:** Convert raw information into structured, analysable data.
-
-</td>
-<td width="33%" valign="top">
-
-#### AI Frameworks · **Planned**
-
-- [**Scikit-learn**](https://scikit-learn.org/) — Classical machine-learning pipelines
-- [**PyTorch**](https://pytorch.org/) — Flexible neural-network development
-- [**TensorFlow**](https://www.tensorflow.org/) — Scalable training and deployment
-
-**Purpose:** Build, evaluate, and deploy intelligent models.
-
-</td>
-</tr>
-</table>
-
-> **Stack strategy:** Establish a disciplined development foundation, master the data layer, then progress through machine learning and deep learning by building documented projects.
-
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
-
-## 05. Featured AI Focus Areas
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 👁️ Computer Vision
-
-Image classification, object detection, visual recognition, and intelligent systems that understand images and video.
-
-**Future direction:** Smart visual analysis projects.
-
-</td>
-<td width="33%" valign="top">
-
-### 🤖 Robotics Programming
-
-Combining software, sensors, decision-making, and automation to create machines that interact with the real world.
-
-**Future direction:** Intelligent robotic control.
-
-</td>
-<td width="33%" valign="top">
-
-### 🏛️ Government Systems
-
-AI systems that can improve digital services, document processing, public-data analysis, and operational efficiency.
-
-**Future direction:** Responsible public-sector automation.
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### 🚘 Autonomous Systems
-
-Computer vision, sensors, prediction, and decision-making for safer and more intelligent transportation systems.
-
-**Future direction:** Vehicle perception and assistance.
-
-</td>
-<td width="33%" valign="top">
-
-### ❤️ Medical AI
-
-Using data and deep learning to support disease-risk analysis, medical-image understanding, and clinical decision support.
-
-**Future direction:** Heart-disease analysis projects.
-
-</td>
-<td width="33%" valign="top">
-
-### 🧠 Intelligent Assistants
-
-NLP, LLMs, and generative AI systems that understand requests, retrieve knowledge, and provide useful responses.
-
-**Future direction:** Arabic and domain-specific assistants.
-
-</td>
-</tr>
-</table>
-
-> Future projects will be published with clear documentation, datasets, notebooks, results, limitations, and lessons learned.
-
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
-
-## 06. GitHub Analytics
-
-<div align="center">
-
-<img src="./assets/github-presence.svg" width="100%" alt="Animated GitHub presence dashboard" />
-
-<br/>
-
-<a href="https://github.com/thismieo?tab=repositories">
-  <img src="https://img.shields.io/badge/Repositories-Explore-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="Explore repositories" />
+<a href="https://thismieo.github.io">
+  <img src="https://img.shields.io/badge/VIEW-Live%20Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=07101F" alt="View live portfolio" />
 </a>
-<a href="https://github.com/thismieo?tab=overview">
-  <img src="https://img.shields.io/badge/Contributions-View-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="View contributions" />
-</a>
-<a href="https://github.com/thismieo?tab=stars">
-  <img src="https://img.shields.io/badge/Starred%20Work-Open-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="View starred repositories" />
+<a href="https://github.com/thismieo/thismieo.github.io">
+  <img src="https://img.shields.io/badge/EXPLORE-Source%20Code-7C3AED?style=for-the-badge&logo=github&logoColor=white&labelColor=07101F" alt="Explore portfolio source code" />
 </a>
 
 </div>
 
-> The dashboard uses stable GitHub destinations and presents repositories, contributions, and activity as parts of one public engineering journey.
+---
 
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+## 03 / Engineering Path
 
-## 07. Goals
+<img src="./assets/profile-v2-roadmap.svg" width="100%" alt="Engineering learning path" />
 
-<div align="center">
+The roadmap is intentionally progressive. Technologies are marked according to their real status—not presented as active skills before their learning stage begins.
+
+---
+
+## 04 / Technology Direction
 
 <table>
 <tr>
-<td width="33%" align="center" valign="top">
+<td width="33%" valign="top">
 
-### 🐍 Strong Foundations
+### Active Foundation
 
-Master Python, algorithms, clean code, and problem-solving.
+- **Python** — programming logic and problem-solving
+- **Algorithms** — structured thinking and reusable solutions
+- **Git** — version control and change history
+- **GitHub** — publishing, review, and documentation
+- **VS Code** — development and debugging workspace
 
-**Status:** 🔄 Active
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### 📊 Data Skills
-
-Learn NumPy, Pandas, visualization, preprocessing, and analysis.
-
-**Status:** ⏳ Next
+**Status:** Active
 
 </td>
-<td width="33%" align="center" valign="top">
+<td width="33%" valign="top">
 
-### 🤖 Machine Learning
+### Data Layer
 
-Understand models, evaluation, feature engineering, and real use cases.
+- **NumPy** — numerical computing
+- **Pandas** — data analysis and transformation
+- **Jupyter** — experiments and notebooks
+- **Matplotlib** — clear data visualization
+- **Preprocessing** — reliable model inputs
 
-**Status:** ⏳ Planned
-
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-
-### 🧠 Advanced AI
-
-Study Deep Learning, Computer Vision, NLP, LLMs, and Generative AI.
-
-**Status:** ⏳ Planned
+**Status:** Next
 
 </td>
-<td width="33%" align="center" valign="top">
+<td width="33%" valign="top">
 
-### 🚀 Project Portfolio
+### Intelligent Systems
 
-Build and document more than ten practical AI projects.
+- **Scikit-learn** — machine-learning pipelines
+- **PyTorch** — neural-network development
+- **Computer Vision** — visual understanding
+- **NLP & LLMs** — language intelligence
+- **Generative AI** — intelligent content systems
 
-**Status:** ⏳ Building path
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### 🌍 Professional Growth
-
-Contribute to open source and develop a credible AI engineering portfolio.
-
-**Status:** 🔄 Continuous
+**Status:** Planned
 
 </td>
 </tr>
 </table>
 
-</div>
+---
 
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+## 05 / Engineering Principles
 
-## 08. Journey
+**Understand before scaling.** I prefer a correct foundation over rushing into advanced frameworks.
 
-- **Started:** June 4, 2026
-- **Current phase:** Programming and AI foundations
-- **Approach:** Learn → Practice → Build → Document → Improve
+**Build evidence, not claims.** Skills should appear through repositories, documentation, decisions, and working results.
 
-> *Every expert started somewhere. Progress begins when consistency becomes a habit.*
+**Keep progress visible.** GitHub is the public record of what I learn, build, review, and improve.
 
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+**Design with purpose.** Visual quality should support clarity, usability, and technical credibility.
 
-## 09. Connect With Me
+---
+
+## 06 / Current Direction
+
+```text
+NOW       Python foundations · algorithms · clean logic
+BUILDING  Consistent engineering workflow and documented practice
+NEXT      Data analysis · NumPy · Pandas · visualization
+LATER     Machine learning · deep learning · intelligent systems
+```
+
+My long-term direction includes responsible AI systems for healthcare, intelligent assistants, computer vision, smart services, and practical automation. Each direction will be represented by real projects when its technical foundation is ready.
+
+---
+
+## 07 / Connect
 
 <div align="center">
 
-<img src="./assets/connect-network.svg" width="100%" alt="Animated contact and social network" />
-
-<br/>
-
+<a href="https://thismieo.github.io">
+  <img src="https://img.shields.io/badge/Portfolio-thismieo.github.io-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=07101F" alt="Portfolio" />
+</a>
 <a href="mailto:thismieo@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Public%20Email-1E293B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1020" alt="Public Gmail" />
-</a>
-<a href="mailto:thismieo@outlook.com">
-  <img src="https://img.shields.io/badge/Outlook-Personal%20Email-1E293B?style=for-the-badge&logo=microsoftoutlook&logoColor=white&labelColor=0B1020" alt="Personal Outlook" />
+  <img src="https://img.shields.io/badge/Email-thismieo%40gmail.com-9F274E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=07101F" alt="Public email" />
 </a>
 <a href="https://www.kaggle.com/thismieo">
-  <img src="https://img.shields.io/badge/Kaggle-thismieo-1E293B?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0B1020" alt="Kaggle profile" />
-</a>
-<a href="https://www.instagram.com/thismieo/">
-  <img src="https://img.shields.io/badge/Instagram-%40thismieo-1E293B?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0B1020" alt="Instagram profile" />
-</a>
-<a href="https://github.com/thismieo">
-  <img src="https://img.shields.io/badge/GitHub-Follow%20the%20Journey-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="GitHub profile" />
+  <img src="https://img.shields.io/badge/Kaggle-thismieo-2563EB?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=07101F" alt="Kaggle" />
 </a>
 
-</div>
+<br/><br/>
 
-> **Open to learning, collaboration, and building meaningful AI projects.**
+**Open to learning, collaboration, and meaningful engineering work.**
 
 <br/>
 
-<img src="./assets/footer.svg" width="100%" alt="Thanks for visiting my profile" />
+<sub>Built and maintained by Mohammed Muayad · AI Engineering Student · 2026</sub>
+
+</div>
