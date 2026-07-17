@@ -1,0 +1,80 @@
+name: Validate profile
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate README and SVG assets
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
+
+          readme_path = Path("README.md")
+          if not readme_path.is_file():
+              raise SystemExit("README.md is missing")
+
+          readme = readme_path.read_text(encoding="utf-8")
+          expected_assets = {
+              "assets/profile-v2-hero.svg",
+              "assets/profile-v2-status.svg",
+              "assets/profile-v2-project.svg",
+              "assets/profile-v2-roadmap.svg",
+          }
+
+          referenced_assets = set(re.findall(r'\./(assets/profile-v2-[^"\s>]+\.svg)', readme))
+          if referenced_assets != expected_assets:
+              missing = sorted(expected_assets - referenced_assets)
+              unexpected = sorted(referenced_assets - expected_assets)
+              raise SystemExit(f"Profile asset references mismatch. Missing={missing}, unexpected={unexpected}")
+
+          for asset in sorted(expected_assets):
+              path = Path(asset)
+              if not path.is_file():
+                  raise SystemExit(f"Missing asset: {asset}")
+              try:
+                  root = ET.parse(path).getroot()
+              except ET.ParseError as error:
+                  raise SystemExit(f"Invalid SVG XML in {asset}: {error}") from error
+              if not root.tag.endswith("svg"):
+                  raise SystemExit(f"Unexpected root element in {asset}: {root.tag}")
+              if "viewBox" not in root.attrib:
+                  raise SystemExit(f"Missing viewBox in {asset}")
+
+          legacy_references = (
+              "assets/banner.svg",
+              "assets/intro-status.svg",
+              "assets/progress-status.svg",
+              "assets/learning-roadmap.svg",
+              "assets/tech-ecosystem.svg",
+              "assets/github-presence.svg",
+              "assets/connect-network.svg",
+              "assets/footer.svg",
+          )
+          found_legacy = [item for item in legacy_references if item in readme]
+          if found_legacy:
+              raise SystemExit(f"Legacy asset references remain: {found_legacy}")
+
+          required_links = (
+              "https://thismieo.github.io",
+              "https://github.com/thismieo/thismieo.github.io",
+              "mailto:thismieo@gmail.com",
+          )
+          missing_links = [link for link in required_links if link not in readme]
+          if missing_links:
+              raise SystemExit(f"Required profile links are missing: {missing_links}")
+
+          print("Profile README and SVG assets validated successfully.")
+          PY
