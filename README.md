@@ -4,18 +4,13 @@
 
 <br/>
 
-<a href="https://thismieo.github.io">
-  <img src="https://img.shields.io/badge/PORTFOLIO-Live%20Experience-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=07101F" alt="Open live portfolio" />
-</a>
-<a href="https://github.com/thismieo/thismieo.github.io">
-  <img src="https://img.shields.io/badge/SOURCE-Portfolio%20Repository-7C3AED?style=for-the-badge&logo=github&logoColor=white&labelColor=07101F" alt="Open portfolio source repository" />
-</a>
-<a href="mailto:thismieo@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-Contact%20Me-9F274E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=07101F" alt="Email Mohammed Muayad" />
-</a>
-<a href="https://www.kaggle.com/thismieo">
-  <img src="https://img.shields.io/badge/KAGGLE-thismieo-2563EB?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=07101F" alt="Open Kaggle profile" />
-</a>
+<a href="https://thismieo.github.io"><strong>PORTFOLIO</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/thismieo/thismieo.github.io"><strong>SOURCE CODE</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="mailto:thismieo@gmail.com"><strong>EMAIL</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://www.kaggle.com/thismieo"><strong>KAGGLE</strong></a>
 
 </div>
 
@@ -53,12 +48,9 @@ A responsive portfolio system designed to present my identity, learning journey,
 
 <div align="center">
 
-<a href="https://thismieo.github.io">
-  <img src="https://img.shields.io/badge/VIEW-Live%20Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=07101F" alt="View live portfolio" />
-</a>
-<a href="https://github.com/thismieo/thismieo.github.io">
-  <img src="https://img.shields.io/badge/EXPLORE-Source%20Code-7C3AED?style=for-the-badge&logo=github&logoColor=white&labelColor=07101F" alt="Explore portfolio source code" />
-</a>
+<a href="https://thismieo.github.io"><strong>OPEN LIVE PORTFOLIO</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/thismieo/thismieo.github.io"><strong>EXPLORE SOURCE CODE</strong></a>
 
 </div>
 
@@ -149,15 +141,13 @@ My long-term direction includes responsible AI systems for healthcare, intellige
 
 <div align="center">
 
-<a href="https://thismieo.github.io">
-  <img src="https://img.shields.io/badge/Portfolio-thismieo.github.io-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=07101F" alt="Portfolio" />
-</a>
-<a href="mailto:thismieo@gmail.com">
-  <img src="https://img.shields.io/badge/Email-thismieo%40gmail.com-9F274E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=07101F" alt="Public email" />
-</a>
-<a href="https://www.kaggle.com/thismieo">
-  <img src="https://img.shields.io/badge/Kaggle-thismieo-2563EB?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=07101F" alt="Kaggle" />
-</a>
+<a href="https://thismieo.github.io"><strong>PORTFOLIO</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="mailto:thismieo@gmail.com"><strong>EMAIL</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://www.kaggle.com/thismieo"><strong>KAGGLE</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/thismieo"><strong>GITHUB</strong></a>
 
 <br/><br/>
 
