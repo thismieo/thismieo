@@ -67,10 +67,14 @@ jobs:
           if found_legacy:
               raise SystemExit(f"Legacy asset references remain: {found_legacy}")
 
+          if "img.shields.io" in readme:
+              raise SystemExit("Colored Shields.io badges are not allowed in the clean profile link system")
+
           required_links = (
               "https://thismieo.github.io",
               "https://github.com/thismieo/thismieo.github.io",
               "mailto:thismieo@gmail.com",
+              "https://www.kaggle.com/thismieo",
           )
           missing_links = [link for link in required_links if link not in readme]
           if missing_links:
