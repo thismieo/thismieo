@@ -1,7 +1,10 @@
 name: Validate profile
 
 on:
+  push:
+    branches: [main]
   pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -14,7 +17,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Validate README and SVG assets
+      - name: Validate README, SVG assets, and repository cleanliness
         shell: bash
         run: |
           python - <<'PY'
@@ -34,6 +37,28 @@ jobs:
               "assets/profile-v2-roadmap.svg",
           }
 
+          assets_directory = Path("assets")
+          if not assets_directory.is_dir():
+              raise SystemExit("assets directory is missing")
+
+          actual_assets = {
+              path.as_posix()
+              for path in assets_directory.rglob("*")
+              if path.is_file()
+          }
+          if actual_assets != expected_assets:
+              missing = sorted(expected_assets - actual_assets)
+              unexpected = sorted(actual_assets - expected_assets)
+              raise SystemExit(f"Profile asset inventory mismatch. Missing={missing}, unexpected={unexpected}")
+
+          unexpected_asset_directories = sorted(
+              path.as_posix()
+              for path in assets_directory.rglob("*")
+              if path.is_dir()
+          )
+          if unexpected_asset_directories:
+              raise SystemExit(f"Unexpected directories inside assets: {unexpected_asset_directories}")
+
           referenced_assets = set(re.findall(r'\./(assets/profile-v2-[^"\s>]+\.svg)', readme))
           if referenced_assets != expected_assets:
               missing = sorted(expected_assets - referenced_assets)
@@ -42,8 +67,6 @@ jobs:
 
           for asset in sorted(expected_assets):
               path = Path(asset)
-              if not path.is_file():
-                  raise SystemExit(f"Missing asset: {asset}")
               try:
                   root = ET.parse(path).getroot()
               except ET.ParseError as error:
@@ -52,6 +75,33 @@ jobs:
                   raise SystemExit(f"Unexpected root element in {asset}: {root.tag}")
               if "viewBox" not in root.attrib:
                   raise SystemExit(f"Missing viewBox in {asset}")
+
+          expected_root_files = {"README.md"}
+          actual_root_files = {path.name for path in Path(".").iterdir() if path.is_file()}
+          if actual_root_files != expected_root_files:
+              missing = sorted(expected_root_files - actual_root_files)
+              unexpected = sorted(actual_root_files - expected_root_files)
+              raise SystemExit(f"Profile root-file inventory mismatch. Missing={missing}, unexpected={unexpected}")
+
+          allowed_root_directories = {".git", ".github", "assets"}
+          unexpected_root_directories = sorted(
+              path.name
+              for path in Path(".").iterdir()
+              if path.is_dir() and path.name not in allowed_root_directories
+          )
+          if unexpected_root_directories:
+              raise SystemExit(f"Unexpected root directories: {unexpected_root_directories}")
+
+          workflow_files = {
+              path.as_posix()
+              for path in Path(".github/workflows").glob("*")
+              if path.is_file()
+          }
+          expected_workflows = {".github/workflows/validate-profile.yml"}
+          if workflow_files != expected_workflows:
+              missing = sorted(expected_workflows - workflow_files)
+              unexpected = sorted(workflow_files - expected_workflows)
+              raise SystemExit(f"Profile workflow inventory mismatch. Missing={missing}, unexpected={unexpected}")
 
           legacy_references = (
               "assets/banner.svg",
@@ -80,5 +130,8 @@ jobs:
           if missing_links:
               raise SystemExit(f"Required profile links are missing: {missing_links}")
 
-          print("Profile README and SVG assets validated successfully.")
+          print("Profile README, SVG assets, workflows, and repository inventory validated successfully.")
           PY
+
+      - name: Check whitespace
+        run: git diff --check
