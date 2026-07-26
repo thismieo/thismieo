@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Mohammed Muayad — AI Engineering Student</title>
+  <desc id="desc">A calm dark GitHub profile banner with Mohammed Muayad's name, AI Engineering Student title, and a portfolio call to action.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101617"/>
+      <stop offset="0.52" stop-color="#0d1213"/>
+      <stop offset="1" stop-color="#151b1c"/>
+    </linearGradient>
+    <radialGradient id="fog" cx="84%" cy="12%" r="72%">
+      <stop offset="0" stop-color="#d1d9d7" stop-opacity="0.17"/>
+      <stop offset="0.46" stop-color="#71817f" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#71817f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="teal" cx="12%" cy="92%" r="66%">
+      <stop offset="0" stop-color="#315d59" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#315d59" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#91a5a2" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#bec9c7" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#91a5a2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#fog)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#teal)"/>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="142" fill="#f4f7f6" font-size="82" font-weight="760" letter-spacing="0.2">Mohammed Muayad</text>
+    <text x="600" y="202" fill="#c5cfcd" font-size="33" font-weight="650" letter-spacing="2.4">AI ENGINEERING STUDENT</text>
+    <rect x="385" y="234" width="430" height="2" rx="1" fill="url(#line)"/>
+
+    <g transform="translate(438 266)">
+      <rect width="324" height="58" rx="29" fill="#e7ecea" fill-opacity="0.08" stroke="#c8d4d1" stroke-opacity="0.22"/>
+      <text x="162" y="37" fill="#edf2f0" font-size="25" font-weight="700" letter-spacing="1.8">OPEN PORTFOLIO  ↗</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#d8e1df" stroke-opacity="0.08"/>
+</svg>
