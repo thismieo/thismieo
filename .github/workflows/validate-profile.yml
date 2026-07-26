@@ -15,11 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - name: Validate README, SVG assets, and repository cleanliness
+      - name: Validate profile structure and content
         shell: bash
         run: |
+          set -euo pipefail
           python - <<'PY'
           from pathlib import Path
           import re
@@ -30,13 +31,10 @@ jobs:
               raise SystemExit("README.md is missing")
 
           readme = readme_path.read_text(encoding="utf-8")
-          expected_assets = {
-              "assets/profile-v2-hero.svg",
-              "assets/profile-v2-status.svg",
-              "assets/profile-v2-project.svg",
-              "assets/profile-v2-roadmap.svg",
-          }
+          if not readme.strip():
+              raise SystemExit("README.md is empty")
 
+          expected_assets = {"assets/profile-v3-hero.svg"}
           assets_directory = Path("assets")
           if not assets_directory.is_dir():
               raise SystemExit("assets directory is missing")
@@ -49,48 +47,45 @@ jobs:
           if actual_assets != expected_assets:
               missing = sorted(expected_assets - actual_assets)
               unexpected = sorted(actual_assets - expected_assets)
-              raise SystemExit(f"Profile asset inventory mismatch. Missing={missing}, unexpected={unexpected}")
+              raise SystemExit(
+                  f"Profile asset inventory mismatch. Missing={missing}, unexpected={unexpected}"
+              )
 
-          unexpected_asset_directories = sorted(
-              path.as_posix()
-              for path in assets_directory.rglob("*")
-              if path.is_dir()
+          referenced_assets = set(
+              re.findall(r'\./(assets/profile-v3-[^"\s>]+\.svg)', readme)
           )
-          if unexpected_asset_directories:
-              raise SystemExit(f"Unexpected directories inside assets: {unexpected_asset_directories}")
-
-          referenced_assets = set(re.findall(r'\./(assets/profile-v2-[^"\s>]+\.svg)', readme))
           if referenced_assets != expected_assets:
-              missing = sorted(expected_assets - referenced_assets)
-              unexpected = sorted(referenced_assets - expected_assets)
-              raise SystemExit(f"Profile asset references mismatch. Missing={missing}, unexpected={unexpected}")
+              raise SystemExit(
+                  f"README asset references do not match expected assets: {referenced_assets}"
+              )
 
-          for asset in sorted(expected_assets):
-              path = Path(asset)
-              try:
-                  root = ET.parse(path).getroot()
-              except ET.ParseError as error:
-                  raise SystemExit(f"Invalid SVG XML in {asset}: {error}") from error
+          for asset in expected_assets:
+              root = ET.parse(asset).getroot()
               if not root.tag.endswith("svg"):
-                  raise SystemExit(f"Unexpected root element in {asset}: {root.tag}")
+                  raise SystemExit(f"Invalid SVG root element in {asset}")
               if "viewBox" not in root.attrib:
                   raise SystemExit(f"Missing viewBox in {asset}")
+              text = Path(asset).read_text(encoding="utf-8")
+              if "<title" not in text or "<desc" not in text:
+                  raise SystemExit(f"Accessible title or description missing in {asset}")
 
           expected_root_files = {"README.md"}
-          actual_root_files = {path.name for path in Path(".").iterdir() if path.is_file()}
+          actual_root_files = {
+              path.name for path in Path(".").iterdir() if path.is_file()
+          }
           if actual_root_files != expected_root_files:
-              missing = sorted(expected_root_files - actual_root_files)
-              unexpected = sorted(actual_root_files - expected_root_files)
-              raise SystemExit(f"Profile root-file inventory mismatch. Missing={missing}, unexpected={unexpected}")
+              raise SystemExit(
+                  f"Unexpected root files: {sorted(actual_root_files - expected_root_files)}"
+              )
 
           allowed_root_directories = {".git", ".github", "assets"}
-          unexpected_root_directories = sorted(
+          unexpected_directories = sorted(
               path.name
               for path in Path(".").iterdir()
               if path.is_dir() and path.name not in allowed_root_directories
           )
-          if unexpected_root_directories:
-              raise SystemExit(f"Unexpected root directories: {unexpected_root_directories}")
+          if unexpected_directories:
+              raise SystemExit(f"Unexpected root directories: {unexpected_directories}")
 
           workflow_files = {
               path.as_posix()
@@ -99,38 +94,33 @@ jobs:
           }
           expected_workflows = {".github/workflows/validate-profile.yml"}
           if workflow_files != expected_workflows:
-              missing = sorted(expected_workflows - workflow_files)
-              unexpected = sorted(workflow_files - expected_workflows)
-              raise SystemExit(f"Profile workflow inventory mismatch. Missing={missing}, unexpected={unexpected}")
-
-          legacy_references = (
-              "assets/banner.svg",
-              "assets/intro-status.svg",
-              "assets/progress-status.svg",
-              "assets/learning-roadmap.svg",
-              "assets/tech-ecosystem.svg",
-              "assets/github-presence.svg",
-              "assets/connect-network.svg",
-              "assets/footer.svg",
-          )
-          found_legacy = [item for item in legacy_references if item in readme]
-          if found_legacy:
-              raise SystemExit(f"Legacy asset references remain: {found_legacy}")
-
-          if "img.shields.io" in readme:
-              raise SystemExit("Colored Shields.io badges are not allowed in the clean profile link system")
+              raise SystemExit(
+                  f"Workflow inventory mismatch: {sorted(workflow_files)}"
+              )
 
           required_links = (
               "https://thismieo.github.io",
               "https://github.com/thismieo/thismieo.github.io",
-              "mailto:thismieo@gmail.com",
               "https://www.kaggle.com/thismieo",
+              "mailto:thismieo@gmail.com",
           )
           missing_links = [link for link in required_links if link not in readme]
           if missing_links:
               raise SystemExit(f"Required profile links are missing: {missing_links}")
 
-          print("Profile README, SVG assets, workflows, and repository inventory validated successfully.")
+          forbidden_patterns = (
+              "<table",
+              "github-readme-stats",
+              "komarev.com/ghpvc",
+              "visitor-badge",
+              ".gif",
+              "profile-v2-",
+          )
+          found_forbidden = [item for item in forbidden_patterns if item in readme]
+          if found_forbidden:
+              raise SystemExit(f"Forbidden profile patterns found: {found_forbidden}")
+
+          print("Minimal GitHub profile validated successfully.")
           PY
 
       - name: Check whitespace
